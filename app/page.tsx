@@ -1,5 +1,5 @@
 
-import HomeClient from "@/_components/HomeClient";
+import HomeClient from "./_components/HomeClient";
 import { loadJson } from "../lib/content";
 
 type HomeContent = {
