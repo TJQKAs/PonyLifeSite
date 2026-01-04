@@ -1,0 +1,24 @@
+{
+  "heroTitle": "PonyLife is an early-stage experimental platform exploring coordination and collective visibility for overlooked digital art.",
+  "heroSubtitle": "We study how shared participation can redistribute attention and uncertainty without financial promises, guarantees, or optimization for “hits”.",
+  "ctaPrimary": "Explore Works",
+  "ctaSecondary": "Learn How It Works",
+  "cards": [
+    {
+      "title": "Works enter a shared ecosystem",
+      "text": "Creative works are associated with PonyLife to exist within a common visibility layer rather than in isolation."
+    },
+    {
+      "title": "Participation replaces prediction",
+      "text": "Participants coordinate attention and effort without knowing outcomes in advance."
+    },
+    {
+      "title": "Outcomes remain independent",
+      "text": "Each work succeeds or fails on its own terms. PonyLife does not pool or guarantee results."
+    },
+    {
+      "title": "PNL enables coordination",
+      "text": "A token is used only as a mechanism for participation and alignment — not as an investment product."
+    }
+  ]
+}

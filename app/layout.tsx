@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Image from "next/image";
 import Link from "next/link";
 const year = new Date().getFullYear();
 export const metadata: Metadata = {
@@ -68,44 +69,40 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </div>
 
-        <footer style={{ borderTop: "1px solid rgba(0,0,0,0.08)" }}>
-          <div
-            style={{
-              maxWidth: 1080,
-              margin: "0 auto",
-              padding: "18px 20px",            
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-              gap: 12,
-              flexWrap: "wrap",
-              textDecoration: "none",
-              color: "inherit",
-              opacity: 0.9,
-              fontSize: 14,
-              transition: "color 160ms ease, font-weight 160ms ease, opacity 160ms ease",
-            }}
-          >
-            <div>
-              PonyLife is an experimental coordination platform. Not a financial
-              product. No guarantees.
-            </div>
-            <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-              <Link href="/docs" style={{ color: "inherit" }}>
-                Docs
-              </Link>
-              <Link href="/transparency" style={{ color: "inherit" }}>
-                Transparency
-              </Link>
-              <Link href="/contact" style={{ color: "inherit" }}>
-                Contact
-              </Link>
-            </div>
-          </div>
-          <div>
-         © {year} PonyLife. All rights reserved.
-       </div>
-        </footer>
+       <footer style={{ borderTop: "1px solid rgba(255,255,255,0.10)" }}>
+  <div
+    style={{
+      maxWidth: 1080,
+      margin: "0 auto",
+      padding: "18px 20px",
+      fontSize: 13,
+      opacity: 0.82,
+      display: "flex",
+      flexDirection: "column",
+      gap: 10,
+      alignItems: "center",
+      textAlign: "center",
+    }}
+  >
+    <div>
+      © {new Date().getFullYear()} PonyLife. All rights reserved.
+    </div>
+
+    <div style={{ opacity: 0.85 }}>
+      PonyLife is an experimental coordination platform. Not a financial product.
+      No guarantees.
+    </div>
+
+    <div style={{ display: "flex", gap: 14, flexWrap: "wrap", justifyContent: "center" }}>
+      <Link href="/docs" style={{ color: "inherit" }}>Docs</Link>
+      <Link href="/transparency" style={{ color: "inherit" }}>Transparency</Link>
+      <Link href="/contact" style={{ color: "inherit" }}>Contact</Link>
+    </div>
+  </div>
+</footer>
+
+
+
       </body>
     </html>
   );
