@@ -1,18 +1,17 @@
-// app/catalog/[slug]/page.tsx
-"use client";
-
-import { useMemo } from "react";
-
 type PageProps = {
   params: { slug: string };
 };
 
 export default function WorkDetailPage({ params }: PageProps) {
-  const slug = useMemo(() => params.slug, [params.slug]);
-
   return (
-    <main style={{ padding: 24 }}>
-      <h1>Work: {slug}</h1>
+    <main style={{ padding: 32, maxWidth: 900, margin: "0 auto" }}>
+      <h1 style={{ fontSize: 28, marginBottom: 12 }}>
+        Work: {params.slug}
+      </h1>
+      <p style={{ fontSize: 16, lineHeight: 1.6 }}>
+        This is a placeholder work detail page. Later we’ll load real work data
+        by slug.
+      </p>
     </main>
   );
 }
