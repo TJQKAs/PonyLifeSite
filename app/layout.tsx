@@ -34,18 +34,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               gap: 16,
             }}
           >
-            <Link
+           <Link
               href="/"
               style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 10,
                 fontWeight: 700,
                 textDecoration: "none",
                 color: "inherit",
                 letterSpacing: 0.2,
               }}
             >
+              <Image
+                src="/brand/logo.png"
+                alt="PonyLife"
+                width={128}
+                height={128}
+                style={{ borderRadius: 6 }}
+                priority
+              />
               PonyLife
             </Link>
-
             <nav style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
               {nav.map((item) => (
                 <Link
