@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
-
+const year = new Date().getFullYear();
 export const metadata: Metadata = {
   title: "PonyLife",
   description:
@@ -73,14 +73,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             style={{
               maxWidth: 1080,
               margin: "0 auto",
-              padding: "18px 20px",
-              fontSize: 13,
-              opacity: 0.8,
+              padding: "18px 20px",            
               display: "flex",
               alignItems: "center",
               justifyContent: "space-between",
               gap: 12,
               flexWrap: "wrap",
+              textDecoration: "none",
+              color: "inherit",
+              opacity: 0.9,
+              fontSize: 14,
+              transition: "color 160ms ease, font-weight 160ms ease, opacity 160ms ease",
             }}
           >
             <div>
@@ -99,6 +102,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </Link>
             </div>
           </div>
+          <div>
+         © {year} PonyLife. All rights reserved.
+       </div>
         </footer>
       </body>
     </html>
