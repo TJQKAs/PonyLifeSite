@@ -1,4 +1,4 @@
-import PlaceholderPage from "@/_components/PlaceholderPage";
+import PlaceholderPage from "@/app/_components/PlaceholderPage";
 
 export default function PromotersPage() {
   return (
