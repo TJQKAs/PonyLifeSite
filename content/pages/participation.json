@@ -1,0 +1,26 @@
+{
+  "title": "Participation (PNL)",
+  "subtitle": "PNL is a fixed-supply token used as a coordination and participation mechanism within PonyLife — not as an investment product.",
+  "cta": [
+    { "label": "Read Transparency", "href": "/transparency", "variant": "primary" },
+    { "label": "Docs / Glossary", "href": "/docs", "variant": "secondary" }
+  ],
+  "sections": [
+    {
+      "heading": "What PNL is",
+      "body": "A participation unit used to align voluntary actions and coordinate access within the ecosystem."
+    },
+    {
+      "heading": "What PNL is not",
+      "body": "Not equity. Not a security. Not a promise of profit. No guaranteed utility, value, or outcome."
+    },
+    {
+      "heading": "Technical facts",
+      "body": "Network: Base. Supply: fixed. Contract: publicly verified. Liquidity exists at experimental levels."
+    },
+    {
+      "heading": "Risk & uncertainty",
+      "body": "Participation involves uncertainty. PonyLife does not provide financial guarantees, and outcomes cannot be predicted."
+    }
+  ]
+}

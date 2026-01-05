@@ -1,0 +1,26 @@
+{
+  "title": "Docs",
+  "subtitle": "Clear explanations, definitions, and boundaries. No hype language.",
+  "cta": [
+    { "label": "Transparency", "href": "/transparency", "variant": "secondary" },
+    { "label": "Catalog", "href": "/catalog", "variant": "primary" }
+  ],
+  "sections": [
+    {
+      "heading": "FAQ",
+      "body": "PonyLife is not an investment platform. It does not offer returns, guarantees, or financial promises. Participation is voluntary and uncertain."
+    },
+    {
+      "heading": "Glossary",
+      "body": "Coordination: aligning independent actions. Participation: voluntary involvement without guaranteed outcomes. Outcome: externally observable result."
+    },
+    {
+      "heading": "Terms & privacy",
+      "body": "Terms and privacy policies are provided for transparency and clarity. The MVP uses minimal data collection."
+    },
+    {
+      "heading": "Contact",
+      "body": "For questions or submissions, use the contact page or linked channels."
+    }
+  ]
+}

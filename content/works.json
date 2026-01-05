@@ -4,8 +4,67 @@
     "title": "Fragmented Signals",
     "creator": "A. Noether",
     "medium": "Digital Art",
-    "tags": ["abstraction", "signal", "uncertainty"],
+    "language": "EN",
     "status": "Active",
-    "summary": "A visual study of fragmented attention in networked systems."
+    "tags": ["abstraction", "signal", "uncertainty"],
+    "summary": "A visual study of fragmented attention in networked systems.",
+    "coverImage": "/brand/bg-06.png",
+    "description": [
+      "Fragmented Signals explores how attention breaks down across distributed systems.",
+      "The work exists independently of PonyLife and is not owned or controlled by the platform.",
+      "It has been associated with PonyLife to participate in a shared visibility experiment."
+    ],
+    "participation": [
+      {
+        "title": "Promote this work",
+        "text": "Independent participants may choose to promote this work through their own channels."
+      },
+      {
+        "title": "Collect or access",
+        "text": "Where applicable, access or acquisition terms are defined solely by the creator."
+      },
+      {
+        "title": "Learn context",
+        "text": "Understand why this work joined the PonyLife ecosystem and how participation functions."
+      }
+    ]
+  },
+  {
+    "slug": "soft-geometry",
+    "title": "Soft Geometry",
+    "creator": "Studio Lumen",
+    "medium": "Digital Art",
+    "language": "EN",
+    "status": "New",
+    "tags": ["geometry", "texture", "light"],
+    "summary": "A minimal exploration of form, softness, and layered gradients.",
+    "coverImage": "/brand/bg-15.png",
+    "description": [
+      "Soft Geometry studies how minimal forms feel when rendered with imperfect softness.",
+      "It is associated with PonyLife as a visibility experiment — not as a promise of outcome."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you genuinely like it. No scripts, no campaigns." },
+      { "title": "Collect or access", "text": "Any terms are defined only by the creator." }
+    ]
+  },
+  {
+    "slug": "echoes-in-text",
+    "title": "Echoes in Text",
+    "creator": "K. Volterra",
+    "medium": "Text",
+    "language": "EN",
+    "status": "Active",
+    "tags": ["writing", "memory", "network"],
+    "summary": "Short-form writing about memory and visibility in digital spaces.",
+    "coverImage": "/brand/bg-16.png",
+    "description": [
+      "A series of short texts about attention, memory, and the edges of discoverability.",
+      "PonyLife provides context and coordination — not distribution or guarantees."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Reference it, quote it, discuss it — truthfully and transparently." },
+      { "title": "Learn context", "text": "Read the project principles before participating." }
+    ]
   }
 ]

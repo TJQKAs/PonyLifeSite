@@ -1,0 +1,26 @@
+{
+  "title": "Creators",
+  "subtitle": "Associate your work with a shared coordination layer. PonyLife does not manage, monetize, or guarantee outcomes.",
+  "cta": [
+    { "label": "Explore Works", "href": "/catalog", "variant": "secondary" },
+    { "label": "Docs / FAQ", "href": "/docs", "variant": "primary" }
+  ],
+  "sections": [
+    {
+      "heading": "What it means to associate a work",
+      "body": "Your work becomes visible within a shared ecosystem. It can be discovered and promoted by independent participants. You retain full ownership and control."
+    },
+    {
+      "heading": "What PonyLife does not do",
+      "body": "PonyLife does not sell your work, does not promise visibility, does not manage promotion, and does not guarantee outcomes. This is participation, not representation."
+    },
+    {
+      "heading": "What creators receive",
+      "body": "Creators may receive participation units (PNL) and benefit from an experimental visibility context. Any outcomes remain uncertain and independent."
+    },
+    {
+      "heading": "Submission (MVP)",
+      "body": "In the MVP stage, submissions are handled via a simple form or contact channel. Acceptance is not guaranteed."
+    }
+  ]
+}

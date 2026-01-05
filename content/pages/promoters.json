@@ -1,0 +1,26 @@
+{
+  "title": "Promoters",
+  "subtitle": "Promoters are independent participants who select works from the catalog and promote them autonomously. No assignments. No guarantees.",
+  "cta": [
+    { "label": "Browse Catalog", "href": "/catalog", "variant": "primary" },
+    { "label": "Transparency", "href": "/transparency", "variant": "secondary" }
+  ],
+  "sections": [
+    {
+      "heading": "Selecting works",
+      "body": "Choose any public work from the catalog. No permission required. No exclusivity."
+    },
+    {
+      "heading": "Promotion is self-directed",
+      "body": "Promotion methods are entirely up to you. PonyLife does not provide scripts, campaigns, or messaging instructions."
+    },
+    {
+      "heading": "Outcomes",
+      "body": "An outcome is any externally observable result linked to a work (for example: a sale, exhibition, license, or audience growth). Outcomes are uncertain."
+    },
+    {
+      "heading": "Reporting (prototype)",
+      "body": "Promoters may report outcomes for transparency. Reporting does not imply validation, compensation, or guarantees."
+    }
+  ]
+}

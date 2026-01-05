@@ -1,0 +1,26 @@
+{
+  "title": "Transparency",
+  "subtitle": "PonyLife operates in the open. Clear principles, public infrastructure, and versioned changes.",
+  "cta": [
+    { "label": "Docs / FAQ", "href": "/docs", "variant": "primary" },
+    { "label": "Browse Catalog", "href": "/catalog", "variant": "secondary" }
+  ],
+  "sections": [
+    {
+      "heading": "Core principles",
+      "body": "No fiduciary responsibility. No custody of user funds. No financial guarantees. No outcome optimization."
+    },
+    {
+      "heading": "Public infrastructure",
+      "body": "Smart contract verification and on-chain activity are publicly visible. The platform is a coordination layer."
+    },
+    {
+      "heading": "Change log",
+      "body": "Material changes to rules, structure, or participation logic are documented. Clarity beats hype."
+    },
+    {
+      "heading": "Scope",
+      "body": "PonyLife is an experiment. It is not a fund, not a financial product, and not an investment platform."
+    }
+  ]
+}

@@ -1,10 +1,7 @@
-import PlaceholderPage from "@/app/_components/PlaceholderPage";
+import ContentPage, { ContentPageData } from "../_components/ContentPage";
+import { loadJson } from "../../lib/content";
 
-export default function PromotersPage() {
-  return (
-    <PlaceholderPage
-      title="Promoters"
-      description="Select works from the catalog and promote them independently. No assignments, no guarantees."
-    />
-  );
+export default async function PromotersPage() {
+  const data = await loadJson<ContentPageData>("content/pages/promoters.json");
+  return <ContentPage data={data} />;
 }

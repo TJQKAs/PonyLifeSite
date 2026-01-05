@@ -1,10 +1,7 @@
-import PlaceholderPage from "@/app/_components/PlaceholderPage";
+import ContentPage, { ContentPageData } from "../_components/ContentPage";
+import { loadJson } from "../../lib/content";
 
-export default function TransparencyPage() {
-  return (
-    <PlaceholderPage
-      title="Transparency"
-      description="Project principles, public infrastructure links, and change log will live here."
-    />
-  );
+export default async function DocsPage() {
+  const data = await loadJson<ContentPageData>("content/pages/docs.json");
+  return <ContentPage data={data} />;
 }

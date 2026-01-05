@@ -49,8 +49,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Image
                 src="/brand/logo.png"
                 alt="PonyLife"
-                width={128}
-                height={128}
+                width={64}
+                height={64}
                 style={{ borderRadius: 6 }}
                 priority
               />

@@ -1,0 +1,18 @@
+{
+  "title": "Contact",
+  "subtitle": "Minimal and calm communication. No marketing noise.",
+  "sections": [
+    {
+      "heading": "General",
+      "body": "If you have a question, a suggestion, or want to submit a work (MVP), contact us through the channel listed here."
+    },
+    {
+      "heading": "Submissions (MVP)",
+      "body": "For now, submissions are reviewed manually. Include: work title, short description, media link, and preferred contact."
+    },
+    {
+      "heading": "Notes",
+      "body": "Please do not send promotional or price-related requests. PonyLife focuses on coordination and transparency."
+    }
+  ]
+}

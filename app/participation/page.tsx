@@ -1,10 +1,7 @@
-import PlaceholderPage from "@/app/_components/PlaceholderPage";
+import ContentPage, { ContentPageData } from "../_components/ContentPage";
+import { loadJson } from "../../lib/content";
 
-export default function ParticipationPage() {
-  return (
-    <PlaceholderPage
-      title="Participation (PNL)"
-      description="PNL is a coordination and participation mechanism. Not equity, not an investment product, no promises."
-    />
-  );
+export default async function ParticipationPage() {
+  const data = await loadJson<ContentPageData>("content/pages/participation.json");
+  return <ContentPage data={data} />;
 }
