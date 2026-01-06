@@ -1,0 +1,221 @@
+.wrap{
+  position: relative;
+  isolation: isolate;
+}
+
+.bgTexture{
+  position: absolute;
+  inset: -120px;
+  z-index: -2;
+  background-image:
+    url("/brand/bg-13.png"),
+    url("/brand/bg-04.png");
+  background-size: cover, cover;
+  background-position: center, center;
+  opacity: 0.12;
+  filter: blur(22px) saturate(1.05);
+  transform: scale(1.06);
+}
+
+.bgGlow{
+  position: absolute;
+  inset: -80px;
+  z-index: -3;
+  background:
+    radial-gradient(900px 650px at 20% 12%, rgba(34,211,238,0.14), transparent 60%),
+    radial-gradient(900px 650px at 75% 25%, rgba(168,85,247,0.12), transparent 62%),
+    radial-gradient(1000px 700px at 55% 95%, rgba(255,138,61,0.11), transparent 60%);
+  filter: blur(6px);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0 10px;
+}
+
+.title{
+  margin: 0;
+  font-size: clamp(30px, 2.6vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.subtitle{
+  margin: 0;
+  max-width: 920px;
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+@media (max-width: 920px){
+  .grid{ grid-template-columns: 1fr; }
+}
+
+.card{
+  position: relative;
+  border-radius: 16px;
+  padding: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.03));
+  box-shadow:
+    0 26px 70px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(255,255,255,0.14);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 16px;
+  padding: 1px;
+  background: linear-gradient(120deg,
+    rgba(59,130,246,0.55),
+    rgba(168,85,247,0.55),
+    rgba(255,138,61,0.55)
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.h3{
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+.p{
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.7;
+}
+
+.kv{
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+@media (max-width: 520px){
+  .kv{ grid-template-columns: 1fr; }
+}
+
+.key{
+  color: rgba(255,255,255,0.72);
+}
+
+.value{
+  color: rgba(255,255,255,0.92);
+}
+
+.links{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.linkCard{
+  position: relative;
+  border-radius: 14px;
+  padding: 12px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.10);
+  transition: transform 160ms ease, border-color 160ms ease;
+}
+
+.linkCard:hover{
+  transform: translateY(-1px);
+  border-color: rgba(34,211,238,0.35);
+}
+
+.linkTop{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.linkLabel{
+  font-weight: 800;
+  transition: color 160ms ease, font-weight 160ms ease;
+}
+
+.linkLabel:hover{
+  color: rgba(34,211,238,0.95);
+  font-weight: 900;
+}
+
+.linkLabel:active{
+  color: rgba(255,138,61,0.95);
+}
+
+.linkDesc{
+  margin-top: 6px;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.6;
+  font-size: 13px;
+}
+
+.badge{
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.82);
+}
+
+.changelog{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.changeRow{
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,255,255,0.10);
+}
+
+.date{
+  font-size: 12px;
+  opacity: 0.78;
+}
+
+.text{
+  font-size: 14px;
+  color: rgba(255,255,255,0.86);
+  line-height: 1.6;
+}
+
+.fullWidth{
+  grid-column: 1 / -1;
+}
