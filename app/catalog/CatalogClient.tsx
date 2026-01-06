@@ -10,6 +10,7 @@ export default function CatalogClient({ works }: { works: Work[] }) {
   const [medium, setMedium] = useState("All");
   const [status, setStatus] = useState("All");
   const [language, setLanguage] = useState("All");
+  const [sort, setSort] = useState("New");
 
   const mediums = useMemo(() => ["All", ...unique(works.map((w) => w.medium))], [works]);
   const statuses = useMemo(() => ["All", ...unique(works.map((w) => w.status))], [works]);
@@ -17,26 +18,63 @@ export default function CatalogClient({ works }: { works: Work[] }) {
     () => ["All", ...unique(works.map((w) => w.language || "N/A"))],
     [works]
   );
+const filtered = useMemo(() => {
+  const term = q.trim().toLowerCase();
 
-  const filtered = useMemo(() => {
-    const term = q.trim().toLowerCase();
-    return works.filter((w) => {
-      const matchesQ =
-        !term ||
-        w.title.toLowerCase().includes(term) ||
-        w.creator.toLowerCase().includes(term) ||
-        w.summary.toLowerCase().includes(term) ||
-        w.tags.join(" ").toLowerCase().includes(term);
+  const base = works.filter((w) => {
+    const matchesQ =
+      !term ||
+      w.title.toLowerCase().includes(term) ||
+      w.creator.toLowerCase().includes(term) ||
+      w.summary.toLowerCase().includes(term) ||
+      w.tags.join(" ").toLowerCase().includes(term);
 
-      const matchesMedium = medium === "All" || w.medium === medium;
-      const matchesStatus = status === "All" || w.status === status;
+    const matchesMedium = medium === "All" || w.medium === medium;
+    const matchesStatus = status === "All" || w.status === status;
 
-      const lang = w.language || "N/A";
-      const matchesLang = language === "All" || lang === language;
+    const lang = w.language || "N/A";
+    const matchesLang = language === "All" || lang === language;
 
-      return matchesQ && matchesMedium && matchesStatus && matchesLang;
-    });
-  }, [works, q, medium, status, language]);
+    return matchesQ && matchesMedium && matchesStatus && matchesLang;
+  });
+
+  const byDateDesc = (a?: string, b?: string) => {
+    const aa = a ? Date.parse(a) : 0;
+    const bb = b ? Date.parse(b) : 0;
+    return bb - aa;
+  };
+
+  const sorted = [...base].sort((a, b) => {
+    if (sort === "Featured") {
+      const fa = a.featured ? 1 : 0;
+      const fb = b.featured ? 1 : 0;
+      if (fb !== fa) return fb - fa;
+      return a.title.localeCompare(b.title);
+    }
+
+    if (sort === "RecentlyActive") {
+      const d = byDateDesc(a.updatedAt, b.updatedAt);
+      if (d !== 0) return d;
+      return a.title.localeCompare(b.title);
+    }
+
+    if (sort === "AZ") {
+      return a.title.localeCompare(b.title);
+    }
+
+    // default: New first
+    const aNew = a.status === "New" ? 1 : 0;
+    const bNew = b.status === "New" ? 1 : 0;
+    if (bNew !== aNew) return bNew - aNew;
+
+    const d = byDateDesc(a.updatedAt, b.updatedAt);
+    if (d !== 0) return d;
+
+    return a.title.localeCompare(b.title);
+  });
+
+  return sorted;
+}, [works, q, medium, status, language, sort]);
 
   return (
     <div className={styles.wrap}>
@@ -75,6 +113,13 @@ export default function CatalogClient({ works }: { works: Work[] }) {
               <option key={l} value={l}>{l}</option>
             ))}
           </select>
+          <select className={styles.input} value={sort} onChange={(e) => setSort(e.target.value)}>
+            <option value="New">Sort: New</option>
+            <option value="RecentlyActive">Sort: Recently Active</option>
+            <option value="Featured">Sort: Featured</option>
+            <option value="AZ">Sort: A–Z</option>
+          </select>
+
         </div>
       </header>
 

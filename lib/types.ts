@@ -5,6 +5,8 @@ export type Work = {
   medium: string;
   language?: string;
   status: "New" | "Active" | "Archived" | string;
+  featured?: boolean;
+  updatedAt?: string; // YYYY-MM-DD
   tags: string[];
   summary: string;
   coverImage?: string;

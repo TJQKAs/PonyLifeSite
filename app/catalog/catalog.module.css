@@ -52,7 +52,7 @@
 
 .controls{
   display: grid;
-  grid-template-columns: 1fr repeat(3, minmax(150px, 190px));
+  grid-template-columns: 1fr repeat(4, minmax(150px, 190px));
   gap: 10px;
   margin-top: 8px;
 }

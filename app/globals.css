@@ -48,3 +48,12 @@ header a:active{
   color: rgba(255,138,61,0.95);
   font-weight: 700;
 }
+select, option{
+  background-color: rgba(12, 18, 45, 0.95);
+  color: var(--text);
+}
+select:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(34,211,238,0.25);
+  border-color: rgba(34,211,238,0.45);
+}

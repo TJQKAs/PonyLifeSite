@@ -20,5 +20,10 @@
       "title": "PNL enables coordination",
       "text": "A token is used only as a mechanism for participation and alignment — not as an investment product."
     }
-  ]
+   ],
+    "featured": {
+    "title": "Featured Works",
+    "subtitle": "A small selection from the public catalog. Inclusion does not imply endorsement, valuation, or expected outcomes.",
+    "ctaLabel": "View Full Catalog"
+  }
 }

@@ -1,34 +1,27 @@
 [
   {
-    "slug": "fragmented-signals",
-    "title": "Fragmented Signals",
-    "creator": "A. Noether",
-    "medium": "Digital Art",
-    "language": "EN",
-    "status": "Active",
-    "tags": ["abstraction", "signal", "uncertainty"],
-    "summary": "A visual study of fragmented attention in networked systems.",
-    "coverImage": "/brand/bg-06.png",
-    "description": [
-      "Fragmented Signals explores how attention breaks down across distributed systems.",
-      "The work exists independently of PonyLife and is not owned or controlled by the platform.",
-      "It has been associated with PonyLife to participate in a shared visibility experiment."
-    ],
-    "participation": [
-      {
-        "title": "Promote this work",
-        "text": "Independent participants may choose to promote this work through their own channels."
-      },
-      {
-        "title": "Collect or access",
-        "text": "Where applicable, access or acquisition terms are defined solely by the creator."
-      },
-      {
-        "title": "Learn context",
-        "text": "Understand why this work joined the PonyLife ecosystem and how participation functions."
-      }
-    ]
-  },
+  "slug": "fragmented-signals",
+  "title": "Fragmented Signals",
+  "creator": "A. Noether",
+  "medium": "Digital Art",
+  "language": "EN",
+  "status": "Active",
+  "featured": true,
+  "updatedAt": "2026-01-03",
+  "tags": ["abstraction", "signal", "uncertainty"],
+  "summary": "A visual study of fragmented attention in networked systems.",
+  "coverImage": "/brand/bg-06.png",
+  "description": [
+    "Fragmented Signals explores how attention breaks down across distributed systems.",
+    "The work exists independently of PonyLife and is not owned or controlled by the platform.",
+    "It has been associated with PonyLife to participate in a shared visibility experiment."
+  ],
+  "participation": [
+    { "title": "Promote this work", "text": "Independent participants may choose to promote this work through their own channels." },
+    { "title": "Collect or access", "text": "Where applicable, access or acquisition terms are defined solely by the creator." },
+    { "title": "Learn context", "text": "Understand why this work joined the PonyLife ecosystem and how participation functions." }
+  ]
+},
   {
     "slug": "soft-geometry",
     "title": "Soft Geometry",
@@ -36,6 +29,8 @@
     "medium": "Digital Art",
     "language": "EN",
     "status": "New",
+    "featured": false, 
+    "updatedAt": "2026-01-05",
     "tags": ["geometry", "texture", "light"],
     "summary": "A minimal exploration of form, softness, and layered gradients.",
     "coverImage": "/brand/bg-15.png",
@@ -55,6 +50,8 @@
     "medium": "Text",
     "language": "EN",
     "status": "Active",
+    "featured": false, 
+    "updatedAt": "2026-01-02",
     "tags": ["writing", "memory", "network"],
     "summary": "Short-form writing about memory and visibility in digital spaces.",
     "coverImage": "/brand/bg-16.png",
