@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import { siteUrl } from "../lib/site";
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";
 const year = new Date().getFullYear();
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ponylife.art"),
+  metadataBase: new URL(siteUrl()),
   title: {
     default: "PonyLife",
     template: "%s — PonyLife",
@@ -15,7 +17,7 @@ export const metadata: Metadata = {
     title: "PonyLife",
     description:
       "Experimental coordination layer for overlooked digital art. Website first, token second.",
-    url: "https://ponylife.art",
+    url: siteUrl(),
     siteName: "PonyLife",
     type: "website",
   },
@@ -26,12 +28,6 @@ export const metadata: Metadata = {
       "Experimental coordination layer for overlooked digital art. Website first, token second.",
   },
 };
-
-
-
-
-
-
 const nav = [
   { href: "/catalog", label: "Catalog" },
   { href: "/creators", label: "Creators" },
@@ -141,7 +137,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 </footer>
 
 
-
+     <Analytics />
       </body>
     </html>
   );

@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
 import { loadJson } from "../lib/content";
 import type { Work } from "../lib/types";
+import { siteUrl } from "../lib/site";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://ponylife.art";
+  const baseUrl = siteUrl();
 
   const staticRoutes = [
     "",

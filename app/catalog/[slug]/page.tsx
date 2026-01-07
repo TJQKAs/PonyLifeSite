@@ -1,5 +1,5 @@
 export const dynamic = "force-dynamic";
-
+import { absoluteUrl } from "../../../lib/site";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { loadJson } from "../../../lib/content";
@@ -8,12 +8,12 @@ import styles from "./work.module.css";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
-function absoluteUrl(path: string) {
-  const base = "https://ponylife.art";
-  if (!path) return base;
-  if (path.startsWith("http")) return path;
-  return `${base}${path.startsWith("/") ? path : `/${path}`}`;
-}
+// function absoluteUrl(path: string) {
+//   const base = "https://ponylife.art";
+//   if (!path) return base;
+//   if (path.startsWith("http")) return path;
+//   return `${base}${path.startsWith("/") ? path : `/${path}`}`;
+// }
 
 async function getWorkBySlug(rawSlug: string) {
   const works = await loadJson<Work[]>("content/works.json");
