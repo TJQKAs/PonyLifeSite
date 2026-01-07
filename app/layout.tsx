@@ -22,7 +22,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <header style={{ borderBottom: "1px solid rgba(0,0,0,0.08)" }}>
+        <header style={{  
+          borderBottom: "1px solid rgba(255,255,255,0.10)",
+          position: "sticky",
+          top: 0,
+          zIndex: 1000,
+          background: "rgba(7,8,19,0.65)",
+          backdropFilter: "blur(12px)", }}>
           <div
             style={{
               maxWidth: 1080,
