@@ -4,10 +4,33 @@ import Image from "next/image";
 import Link from "next/link";
 const year = new Date().getFullYear();
 export const metadata: Metadata = {
-  title: "PonyLife",
+  metadataBase: new URL("https://ponylife.art"),
+  title: {
+    default: "PonyLife",
+    template: "%s — PonyLife",
+  },
   description:
     "Experimental coordination layer for overlooked digital art. Website first, token second.",
+  openGraph: {
+    title: "PonyLife",
+    description:
+      "Experimental coordination layer for overlooked digital art. Website first, token second.",
+    url: "https://ponylife.art",
+    siteName: "PonyLife",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PonyLife",
+    description:
+      "Experimental coordination layer for overlooked digital art. Website first, token second.",
+  },
 };
+
+
+
+
+
 
 const nav = [
   { href: "/catalog", label: "Catalog" },
