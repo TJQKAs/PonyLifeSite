@@ -8,6 +8,7 @@ export type Work = {
   featured?: boolean;
   updatedAt?: string; // YYYY-MM-DD
   tags: string[];
+  price?: number; // PonyLife tokens
   summary: string;
   coverImage?: string;
   description?: string[];

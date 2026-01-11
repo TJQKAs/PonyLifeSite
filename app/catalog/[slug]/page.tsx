@@ -107,6 +107,7 @@ export default async function WorkDetailPage({ params }: PageProps) {
           <span className={styles.pill}>Status: {work.status}</span>
           <span className={styles.pill}>Medium: {work.medium}</span>
           <span className={styles.pill}>Language: {work.language || "N/A"}</span>
+           <span className={styles.pill}>Price: {work.price || "N/A"} PNL</span>
         </div>
       </header>
 
