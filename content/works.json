@@ -1,70 +1,985 @@
-[
-  {
-  "slug": "fragmented-signals",
-  "title": "Fragmented Signals",
-  "creator": "A. Noether",
-  "medium": "Digital Art",
-  "price": 133,
-  "language": "EN",
-  "status": "Active",
-  "featured": true,
-  "updatedAt": "2026-01-03",
-  "tags": ["abstraction", "signal", "uncertainty"],
-  "summary": "A visual study of fragmented attention in networked systems.",
-  "coverImage": "/workpics/bg-06.png",
-  "description": [
-    "Fragmented Signals explores how attention breaks down across distributed systems.",
-    "The work exists independently of PonyLife and is not owned or controlled by the platform.",
-    "It has been associated with PonyLife to participate in a shared visibility experiment."
-  ],
-  "participation": [
-    { "title": "Promote this work", "text": "Independent participants may choose to promote this work through their own channels." },
-    { "title": "Collect or access", "text": "Where applicable, access or acquisition terms are defined solely by the creator." },
-    { "title": "Learn context", "text": "Understand why this work joined the PonyLife ecosystem and how participation functions." }
-  ]
-},
-  {
-    "slug": "soft-geometry",
-    "title": "Soft Geometry",
-    "creator": "Studio Lumen",
+[{
+    "slug": "totemic-archive",
+    "title": "Totemic Archive",
+    "creator": "Atelier Obscura",
     "medium": "Digital Art",
-    "price": 120,
+    "price": 210,
     "language": "EN",
-    "status": "New",
-    "featured": false, 
-    "updatedAt": "2026-01-05",
-    "tags": ["geometry", "texture", "light"],
-    "summary": "A minimal exploration of form, softness, and layered gradients.",
-    "coverImage": "/workpics/bg-15.png",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["totem", "mythology", "archive", "symbols", "culture"],
+    "summary": "A monumental wall of totems and faces forming a visual archive of forgotten cultures.",
+    "coverImage": "/workpics/002.jpg",
     "description": [
-      "Soft Geometry studies how minimal forms feel when rendered with imperfect softness.",
-      "It is associated with PonyLife as a visibility experiment — not as a promise of outcome."
+      "Totemic Archive presents an immense collection of carved symbols, masks, and ritual forms.",
+      "Each figure feels like a stored memory from an imagined civilization.",
+      "The work participates in PonyLife for shared visibility but remains fully independent."
     ],
     "participation": [
-      { "title": "Promote this work", "text": "Share it if you genuinely like it. No scripts, no campaigns." },
+      { "title": "Promote this work", "text": "Share it where themes of culture and myth resonate." },
+      { "title": "Collect or access", "text": "All terms are defined by the creator." }
+    ]
+  },
+  {
+    "slug": "chaos-glyph-city",
+    "title": "Chaos Glyph City",
+    "creator": "Atelier Obscura",
+    "medium": "Digital Art",
+    "price": 195,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["chaos", "glyphs", "collective", "faces", "network"],
+    "summary": "A dense, colorful city of creatures and glyphs representing a living digital subconscious.",
+    "coverImage": "/workpics/003.jpg",
+    "description": [
+      "Chaos Glyph City compresses hundreds of forms into a single visual field.",
+      "It suggests the overwhelming presence of a shared, networked imagination.",
+      "PonyLife only connects this work to a wider audience — it does not own it."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it in discussions about digital culture or collective identity." },
+      { "title": "Learn context", "text": "Read how PonyLife connects independent creators." }
+    ]
+  },
+  {
+    "slug": "chrono-vault",
+    "title": "Chrono Vault",
+    "creator": "Atelier Obscura",
+    "medium": "Digital Art",
+    "price": 230,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["time", "clocks", "memory", "mechanism", "architecture"],
+    "summary": "A vast wall of clocks and mechanisms forming an impossible architecture of time.",
+    "coverImage": "/workpics/001.jpg",
+    "description": [
+      "Chrono Vault treats timepieces as bricks in a monumental structure.",
+      "Every clock suggests a stored moment or forgotten rhythm.",
+      "The artwork remains independent while taking part in PonyLife’s shared context."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where themes of time and memory are explored." },
+      { "title": "Collect or access", "text": "Creator defines all access and acquisition terms." }
+    ]
+  },
+  {
+    "slug": "white-zen-sphere",
+    "title": "White Zen Sphere",
+    "creator": "Studio Helix",
+    "medium": "Digital Art",
+    "price": 105,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["sphere", "minimal", "balance", "design"],
+    "summary": "A minimal character design built around balance, symmetry, and quiet joy.",
+    "coverImage": "/workpics/004.jpg",
+    "description": [
+      "White Zen Sphere strips the character down to pure form and expression.",
+      "The absence of background emphasizes its internal stillness.",
+      "It joins PonyLife as part of a shared visual dialogue."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Post or quote it where simplicity is valued." },
+      { "title": "Learn context", "text": "Read about PonyLife’s approach to independent works." }
+    ]
+  },
+  {
+    "slug": "patterned-orb-smile",
+    "title": "Patterned Orb Smile",
+    "creator": "Studio Helix",
+    "medium": "Digital Art",
+    "price": 108,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["character", "pattern", "nature", "optimism"],
+    "summary": "A playful orb blending organic patterns with a joyful expression.",
+    "coverImage": "/workpics/005.jpg",
+    "description": [
+      "This work mixes technical surface detail with a soft emotional tone.",
+      "It reflects how design and character can coexist in a single object.",
+      "The image is part of an open visual experiment through PonyLife."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share freely if it brings a smile." },
+      { "title": "Collect or access", "text": "Creator defines all terms." }
+    ]
+  },
+  {
+    "slug": "toast-hero",
+    "title": "Toast Hero",
+    "creator": "C. Bright",
+    "medium": "Digital Art",
+    "price": 85,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["food", "hero", "humor", "character"],
+    "summary": "A slice of toast reimagined as a cheerful superhero.",
+    "coverImage": "/workpics/006.jpg",
+    "description": [
+      "Toast Hero turns an everyday object into a playful symbol of optimism.",
+      "The exaggerated costume and smile create a comic, lighthearted mood.",
+      "It exists as an independent artwork connected to PonyLife for exposure."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share if you enjoy whimsical design." },
+      { "title": "Collect or access", "text": "Terms belong to the creator alone." }
+    ]
+  },
+  {
+    "slug": "breakfast-champion",
+    "title": "Breakfast Champion",
+    "creator": "C. Bright",
+    "medium": "Digital Art",
+    "price": 88,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["coffee", "hero", "energy", "playful"],
+    "summary": "A heroic figure presenting coffee as a symbol of daily renewal.",
+    "coverImage": "/workpics/007.jpg",
+    "description": [
+      "Breakfast Champion celebrates the small rituals that power our routines.",
+      "The image mixes comic-book energy with everyday comfort.",
+      "It is shared through PonyLife without platform ownership."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Reference it wherever daily rituals are appreciated." },
+      { "title": "Learn context", "text": "Explore how PonyLife connects works without controlling them." }
+    ]
+  },
+  {
+    "slug": "toast-of-optimism",
+    "title": "Toast of Optimism",
+    "creator": "C. Bright",
+    "medium": "Digital Art",
+    "price": 82,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["food", "joy", "character", "energy"],
+    "summary": "A smiling toast character radiating exaggerated joy and warmth.",
+    "coverImage": "/workpics/008.jpg",
+    "description": [
+      "This piece reduces heroism to pure positive energy.",
+      "Its cartoon style emphasizes friendliness and approachability.",
+      "PonyLife hosts it as part of a shared visual ecosystem."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where humor belongs." },
+      { "title": "Collect or access", "text": "Defined by the creator." }
+    ]
+  },
+  {
+    "slug": "fox-and-the-book",
+    "title": "Fox and the Book",
+    "creator": "L. Arden",
+    "medium": "Digital Art",
+    "price": 98,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["fox", "reading", "knowledge", "autumn"],
+    "summary": "A reflective fox immersed in reading as leaves fall around it.",
+    "coverImage": "/workpics/009.jpg",
+    "description": [
+      "Fox and the Book continues the theme of learning as a quiet, personal act.",
+      "The autumn setting reinforces impermanence and focus.",
+      "The work participates in PonyLife as an open visual node."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Quote or share if it matches your aesthetic." },
+      { "title": "Learn context", "text": "Discover how PonyLife frames independent art." }
+    ]
+  },
+  {
+    "slug": "glasses-and-pages",
+    "title": "Glasses and Pages",
+    "creator": "L. Arden",
+    "medium": "Digital Art",
+    "price": 100,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["fox", "book", "focus", "identity"],
+    "summary": "A studious fox symbolizing curiosity, identity, and gentle concentration.",
+    "coverImage": "/workpics/010.jpg",
+    "description": [
+      "This portrait focuses on the emotional side of reading and self-definition.",
+      "The character’s glasses and posture suggest deliberate attention.",
+      "It joins PonyLife to be seen within a wider network of creative work."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where thoughtful design is valued." },
+      { "title": "Collect or access", "text": "Creator defines all terms." }
+    ]
+  },
+  {
+    "slug": "candy-copter",
+    "title": "Candy Copter",
+    "creator": "Studio Prism",
+    "medium": "Digital Art",
+    "price": 135,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["vehicle", "glass", "candy", "flight", "toy-design"],
+    "summary": "A translucent helicopter filled with bright candy-like forms.",
+    "coverImage": "/workpics/011.jpg",
+    "description": [
+      "Candy Copter reimagines aviation as a playful, sugar-colored toy.",
+      "Its transparent body reveals an interior of floating candy shapes.",
+      "The work joins PonyLife as part of a shared experiment in visual delight."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it wherever playful design is appreciated." },
+      { "title": "Collect or access", "text": "All ownership and access terms belong to the creator." }
+    ]
+  },
+  {
+    "slug": "jellycraft",
+    "title": "Jellycraft",
+    "creator": "Studio Prism",
+    "medium": "Digital Art",
+    "price": 132,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["vehicle", "transparency", "color", "toy", "design"],
+    "summary": "A soft-looking flying vehicle made from layered translucent colors.",
+    "coverImage": "/workpics/012.jpg",
+    "description": [
+      "Jellycraft blends industrial form with a candy-like material language.",
+      "The design suggests a future where machines feel soft and friendly.",
+      "It is connected to PonyLife as an independent visual artifact."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Post it where futuristic design is welcome." },
+      { "title": "Learn context", "text": "Explore PonyLife’s approach to shared visibility." }
+    ]
+  },
+  {
+    "slug": "gumball-sub",
+    "title": "Gumball Sub",
+    "creator": "Studio Prism",
+    "medium": "Digital Art",
+    "price": 140,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["submarine", "candy", "glass", "futurism"],
+    "summary": "A transparent submarine packed with floating, colorful spheres.",
+    "coverImage": "/workpics/013.jpg",
+    "description": [
+      "Gumball Sub transforms deep-sea technology into a playful object.",
+      "The floating candy forms create a sense of motion and curiosity.",
+      "PonyLife provides a context for this independent work."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it with fans of imaginative machines." },
+      { "title": "Collect or access", "text": "Terms are defined by the creator." }
+    ]
+  },
+  {
+    "slug": "crust-strong",
+    "title": "Crust Strong",
+    "creator": "C. Bright",
+    "medium": "Digital Art",
+    "price": 88,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["bread", "hero", "humor", "strength"],
+    "summary": "A muscular bread character proudly showing off its strength.",
+    "coverImage": "/workpics/014.jpg",
+    "description": [
+      "Crust Strong uses humor to turn baked goods into heroic figures.",
+      "The exaggerated muscles contrast with the softness of bread.",
+      "It exists as a playful, independent work inside PonyLife."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it wherever playful heroism fits." },
+      { "title": "Collect or access", "text": "All rights belong to the creator." }
+    ]
+  },
+  {
+    "slug": "roll-power",
+    "title": "Roll Power",
+    "creator": "C. Bright",
+    "medium": "Digital Art",
+    "price": 85,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["pastry", "character", "fun", "energy"],
+    "summary": "A joyful pastry character radiating exaggerated energy.",
+    "coverImage": "/workpics/015.jpg",
+    "description": [
+      "Roll Power presents baked goods as symbols of positivity and movement.",
+      "Its smiling face reinforces the theme of lighthearted strength.",
+      "PonyLife connects it with other playful visual works."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Post it where cheerful design is welcome." },
+      { "title": "Learn context", "text": "Discover PonyLife’s shared visibility system." }
+    ]
+  },
+  {
+    "slug": "golden-bun",
+    "title": "Golden Bun",
+    "creator": "C. Bright",
+    "medium": "Digital Art",
+    "price": 82,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["bread", "character", "joy", "design"],
+    "summary": "A glossy bread character glowing with friendly warmth.",
+    "coverImage": "/workpics/016.jpg",
+    "description": [
+      "Golden Bun emphasizes texture, shine, and expressive character design.",
+      "The image turns an everyday object into a lovable mascot.",
+      "It is shared through PonyLife without platform ownership."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share if it brings a smile." },
+      { "title": "Collect or access", "text": "Creator defines all terms." }
+    ]
+  },
+  {
+    "slug": "happy-hedgehog",
+    "title": "Happy Hedgehog",
+    "creator": "Studio Mellow",
+    "medium": "Digital Art",
+    "price": 92,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["animal", "mascot", "cute", "character"],
+    "summary": "A friendly hedgehog designed as a warm, approachable mascot.",
+    "coverImage": "/workpics/017.jpg",
+    "description": [
+      "Happy Hedgehog captures softness, innocence, and emotional comfort.",
+      "The character is meant to feel safe and trustworthy.",
+      "It participates in PonyLife as part of a shared visual space."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where cute design belongs." },
+      { "title": "Collect or access", "text": "Terms are set by the creator." }
+    ]
+  },
+  {
+    "slug": "young-striker",
+    "title": "Young Striker",
+    "creator": "Studio Mellow",
+    "medium": "Digital Art",
+    "price": 98,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["child", "soccer", "character", "optimism"],
+    "summary": "A cheerful boy sitting with a soccer ball, full of anticipation.",
+    "coverImage": "/workpics/018.jpg",
+    "description": [
+      "Young Striker represents playful ambition and childhood energy.",
+      "The simple pose highlights joy rather than competition.",
+      "It is shared through PonyLife as an independent visual story."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it with fans of positive characters." },
+      { "title": "Learn context", "text": "Explore PonyLife’s project philosophy." }
+    ]
+  },
+  {
+    "slug": "sweet-submarine",
+    "title": "Sweet Submarine",
+    "creator": "Studio Prism",
+    "medium": "Digital Art",
+    "price": 138,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["submarine", "glass", "candy", "futuristic"],
+    "summary": "A glowing glass submarine filled with colorful candy spheres.",
+    "coverImage": "/workpics/019.jpg",
+    "description": [
+      "Sweet Submarine blends toy-like design with science-fiction form.",
+      "Its transparent shell invites viewers to explore its interior world.",
+      "The work exists independently but is visible through PonyLife."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where imaginative design is loved." },
+      { "title": "Collect or access", "text": "All terms belong to the creator." }
+    ]
+  },
+  {
+    "slug": "sugar-jet",
+    "title": "Sugar Jet",
+    "creator": "Studio Prism",
+    "medium": "Digital Art",
+    "price": 145,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["aircraft", "candy", "glass", "colorful"],
+    "summary": "A futuristic jet built from transparent candy-like materials.",
+    "coverImage": "/workpics/020.jpg",
+    "description": [
+      "Sugar Jet imagines flight as a vibrant, playful experience.",
+      "The layered glass textures give it a dreamlike quality.",
+      "It participates in PonyLife as part of a shared creative ecosystem."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you enjoy colorful futurism." },
+      { "title": "Collect or access", "text": "Creator defines all access and ownership." }
+    ]
+  },
+   {
+    "slug": "paper-chameleon-archive",
+    "title": "Paper Chameleon: Archive Skin",
+    "creator": "Studio Palimpsest",
+    "medium": "Digital Art",
+    "price": 155,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["chameleon", "paper", "memory", "archive", "adaptation"],
+    "summary": "A chameleon formed from layered fragments, wearing memory like a changing skin.",
+    "coverImage": "/workpics/021.jpg",
+    "description": [
+      "Paper Chameleon: Archive Skin depicts a creature built from scattered sheets and fragments.",
+      "Its body suggests that identity can be assembled from records, notes, and leftover signals.",
+      "The work exists independently and is associated with PonyLife only for shared visibility."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you connect with themes of memory and recombination." },
+      { "title": "Collect or access", "text": "Any terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "paper-chameleon-index",
+    "title": "Paper Chameleon: Index Gaze",
+    "creator": "Studio Palimpsest",
+    "medium": "Digital Art",
+    "price": 150,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["chameleon", "collage", "attention", "catalog", "fragment"],
+    "summary": "A watchful chameleon whose surface reads like a living catalog of fragments.",
+    "coverImage": "/workpics/022.jpg",
+    "description": [
+      "Index Gaze focuses on observation: a calm stare emerging from layered debris.",
+      "The collage-like body implies attention organized into an index, never fully complete.",
+      "PonyLife provides context and coordination — not distribution or guarantees."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Reference it in conversations about attention, archives, or identity." },
+      { "title": "Learn context", "text": "Explore how PonyLife links independent works through visibility." }
+    ]
+  },
+  {
+    "slug": "portal-goldfish",
+    "title": "Portal Goldfish",
+    "creator": "A. Noether",
+    "medium": "Digital Art",
+    "price": 140,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["goldfish", "portal", "surreal", "landscape", "wonder"],
+    "summary": "A goldfish drifting through a framed portal, turning the horizon into an aquarium.",
+    "coverImage": "/workpics/023.jpg",
+    "description": [
+      "Portal Goldfish places a living fish inside a circular frame that behaves like a doorway.",
+      "The landscape becomes a stage for impossible movement and quiet astonishment.",
+      "The work participates in PonyLife as a visibility experiment, not as a promise of outcome."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you enjoy surreal, gentle world-building." },
+      { "title": "Collect or access", "text": "Access or acquisition terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "goldfish-in-a-bubble",
+    "title": "Goldfish in a Bubble",
+    "creator": "A. Noether",
+    "medium": "Digital Art",
+    "price": 145,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["goldfish", "bubble", "isolation", "water", "dreamlike"],
+    "summary": "A luminous goldfish suspended inside a transparent sphere of water and air.",
+    "coverImage": "/workpics/024.jpg",
+    "description": [
+      "Goldfish in a Bubble frames the fish as a self-contained world.",
+      "The glass sphere suggests protection, separation, and the fragility of contained life.",
+      "It exists independently of PonyLife and is not owned or controlled by the platform."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where themes of fragility and wonder resonate." },
+      { "title": "Learn context", "text": "Understand why this work joined the PonyLife ecosystem." }
+    ]
+  },
+  {
+    "slug": "bubble-lake-observer",
+    "title": "Bubble Lake Observer",
+    "creator": "A. Noether",
+    "medium": "Digital Art",
+    "price": 148,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["bubble", "goldfish", "observer", "distance", "scale"],
+    "summary": "A human watcher meets a vast bubble-world where fish float like drifting thoughts.",
+    "coverImage": "/workpics/025.jpg",
+    "description": [
+      "This work contrasts human scale with an impossible aquarium spanning a landscape.",
+      "The bubble acts as a boundary between witness and dream.",
+      "PonyLife offers context for this work without claiming ownership."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Discuss it as a metaphor for distance, scale, or imagination." },
       { "title": "Collect or access", "text": "Any terms are defined only by the creator." }
     ]
   },
   {
-    "slug": "echoes-in-text",
-    "title": "Echoes in Text",
-    "creator": "K. Volterra",
-    "medium": "Text",
-    "price": 70,
+    "slug": "goldfish-window",
+    "title": "Goldfish Window",
+    "creator": "A. Noether",
+    "medium": "Digital Art",
+    "price": 142,
     "language": "EN",
     "status": "Active",
-    "featured": false, 
-    "updatedAt": "2026-01-02",
-    "tags": ["writing", "memory", "network"],
-    "summary": "Short-form writing about memory and visibility in digital spaces.",
-    "coverImage": "/workpics/bg-16.png",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["goldfish", "window", "underwater", "frame", "quiet"],
+    "summary": "A goldfish appears like a visitor at the edge of an underwater window.",
+    "coverImage": "/workpics/026.jpg",
     "description": [
-      "A series of short texts about attention, memory, and the edges of discoverability.",
+      "Goldfish Window uses a frame-like opening to suggest a boundary between worlds.",
+      "Small fish drift in the background like distant signals.",
+      "It is associated with PonyLife to participate in a shared visibility experiment."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you like quiet, cinematic surrealism." },
+      { "title": "Learn context", "text": "Read the project principles before participating." }
+    ]
+  },
+  {
+    "slug": "ring-of-water",
+    "title": "Ring of Water",
+    "creator": "A. Noether",
+    "medium": "Digital Art",
+    "price": 150,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["portal", "ocean", "goldfish", "horizon", "surreal"],
+    "summary": "A ring-shaped portal holds a sea-sky horizon where a goldfish swims outside reality.",
+    "coverImage": "/workpics/027.jpg",
+    "description": [
+      "Ring of Water turns the horizon into a contained scene, as if reality could be framed.",
+      "The fish becomes a guide through a calm, impossible passage.",
+      "The work remains independent while participating in PonyLife’s shared context."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you enjoy portal imagery and calm surreal worlds." },
+      { "title": "Collect or access", "text": "Creator defines all acquisition terms." }
+    ]
+  },
+  {
+    "slug": "hedgehog-spark",
+    "title": "Hedgehog Spark",
+    "creator": "Studio Mellow",
+    "medium": "Digital Art",
+    "price": 98,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["hedgehog", "cute", "mascot", "gentle", "warmth"],
+    "summary": "A small hedgehog portrait that feels like a quiet promise of courage.",
+    "coverImage": "/workpics/028.jpg",
+    "description": [
+      "Hedgehog Spark highlights softness and presence rather than action.",
+      "The character’s expression suggests steady warmth and calm confidence.",
+      "It joins PonyLife as an independent work in a shared visibility space."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where gentle character design is valued." },
+      { "title": "Collect or access", "text": "Terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "hedgehog-drummer",
+    "title": "Hedgehog Drummer",
+    "creator": "Studio Mellow",
+    "medium": "Digital Art",
+    "price": 102,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["hedgehog", "music", "character", "playful", "rhythm"],
+    "summary": "A hedgehog holding drumsticks, ready to turn quiet into rhythm.",
+    "coverImage": "/workpics/029.jpg",
+    "description": [
+      "Hedgehog Drummer frames music as playful confidence in a small body.",
+      "The sticks suggest performance, practice, and cheerful intent.",
+      "PonyLife provides context for the work without controlling it."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where music, practice, or playful mascots fit." },
+      { "title": "Learn context", "text": "Explore how PonyLife links independent works." }
+    ]
+  },
+  {
+    "slug": "hedgehog-traveler",
+    "title": "Hedgehog Traveler",
+    "creator": "Studio Mellow",
+    "medium": "Digital Art",
+    "price": 108,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["hedgehog", "character", "journey", "resilience", "attitude"],
+    "summary": "A hedgehog dressed like a traveler, projecting stubborn resilience and charm.",
+    "coverImage": "/workpics/030.jpg",
+    "description": [
+      "Hedgehog Traveler mixes cuteness with grit: a small figure built for distance.",
+      "Its clothing suggests story, movement, and lived experience.",
+      "The work participates in PonyLife as a visibility experiment — not as a promise of outcome."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if you like character-driven storytelling." },
+      { "title": "Collect or access", "text": "Creator defines all terms." }
+    ]
+  },
+  {
+    "slug": "autumn-reader-fox",
+    "title": "Autumn Reader",
+    "creator": "L. Arden",
+    "medium": "Digital Art",
+    "price": 95,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["fox", "reading", "autumn", "attention", "warmth"],
+    "summary": "A gentle portrait of focus and curiosity inside a quiet autumn forest.",
+    "coverImage": "/workpics/031.jpg",
+    "description": [
+      "Autumn Reader portrays a small fox absorbed in a book while leaves drift around it.",
+      "The image reflects the idea of attention as something fragile, seasonal, and precious.",
+      "The work exists independently and is associated with PonyLife only for shared visibility."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share or reference it if the mood resonates with you." },
+      { "title": "Collect or access", "text": "All access or ownership terms are defined by the creator." }
+    ]
+  },
+  {
+    "slug": "quiet-forest-study",
+    "title": "Quiet Forest Study",
+    "creator": "L. Arden",
+    "medium": "Digital Art",
+    "price": 90,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-12",
+    "tags": ["fox", "book", "forest", "calm", "memory"],
+    "summary": "A still moment of learning surrounded by falling leaves and fading light.",
+    "coverImage": "/workpics/032.jpg",
+    "description": [
+      "A fox sits in the forest reading as if insulated from the outside world.",
+      "The scene suggests memory forming slowly, page by page.",
+      "PonyLife connects this work to a wider network of quiet attention."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Discuss or repost if it fits your sense of reflection." },
+      { "title": "Learn context", "text": "Explore how PonyLife links independent works through visibility." }
+    ]
+  },
+  {
+    "slug": "green-meditation-orb",
+    "title": "Green Meditation Orb",
+    "creator": "Studio Helix",
+    "medium": "Digital Art",
+    "price": 110,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-12",
+    "tags": ["sphere", "calm", "nature", "mindfulness", "character"],
+    "summary": "A cheerful spherical character embodying calm and playful mindfulness.",
+    "coverImage": "/workpics/033.jpg",
+    "description": [
+      "Green Meditation Orb presents a simple character sitting peacefully in a bright field.",
+      "Its exaggerated smile contrasts with the stillness of its pose.",
+      "The piece reflects modern attempts to make calm visually approachable."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it where playful calm feels welcome." },
+      { "title": "Collect or access", "text": "Any acquisition terms are set solely by the creator." }
+    ]
+  },
+  {
+    "slug": "desert-wind-lama",
+    "title": "Desert Wind Llama",
+    "creator": "Studio Caravan",
+    "medium": "Digital Art",
+    "price": 125,
+    "language": "EN",
+    "status": "New",
+    "featured": true,
+    "updatedAt": "2026-01-13",
+    "tags": ["character", "roadtrip", "desert", "sunglasses", "adventure"],
+    "summary": "A stylish llama catches the desert light mid-roadtrip, framed like a cinematic postcard.",
+    "coverImage": "/workpics/036.jpg",
+    "description": [
+      "Desert Wind Llama captures the calm confidence of a long drive through sun-scorched canyons.",
+      "The piece stands independently of PonyLife and remains fully owned and controlled by the creator.",
+      "It is associated with PonyLife to participate in a shared visibility experiment."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if it fits your aesthetic — no scripts, no forced campaigns." },
+      { "title": "Collect or access", "text": "Any acquisition or access terms are defined solely by the creator." },
+      { "title": "Learn context", "text": "Read the project principles to understand how participation works." }
+    ]
+  },
+  {
+    "slug": "open-road-grin",
+    "title": "Open Road Grin",
+    "creator": "Studio Caravan",
+    "medium": "Digital Art",
+    "price": 118,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-13",
+    "tags": ["character", "joy", "travel", "desert", "illustration"],
+    "summary": "A bright, playful portrait that turns a roadtrip moment into a joyful icon.",
+    "coverImage": "/workpics/037.jpg",
+    "description": [
+      "Open Road Grin is a celebration of motion, laughter, and sunlit miles with nothing urgent ahead.",
+      "PonyLife provides context and coordination — not distribution, ownership, or guarantees."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Reference it, repost it, or discuss it — transparently and in your own words." },
+      { "title": "Collect or access", "text": "Terms (if any) are defined only by the creator." }
+    ]
+  },
+  {
+    "slug": "horizon-cool",
+    "title": "Horizon Cool",
+    "creator": "Studio Caravan",
+    "medium": "Digital Art",
+    "price": 130,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-13",
+    "tags": ["character", "sunglasses", "blue-sky", "wanderlust", "portrait"],
+    "summary": "A confident llama portrait set against a wide sky, tuned for crisp wallpaper energy.",
+    "coverImage": "/workpics/038.jpg",
+    "description": [
+      "Horizon Cool leans into clean air, sharp highlights, and the steady rhythm of travel.",
+      "This work is associated with PonyLife as a visibility experiment — not as a promise of outcome."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it because you like it, not because you’re told to." },
+      { "title": "Collect or access", "text": "Access or acquisition terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "pink-scarf-mile",
+    "title": "Pink Scarf Mile",
+    "creator": "Studio Caravan",
+    "medium": "Digital Art",
+    "price": 122,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-13",
+    "tags": ["character", "fashion", "roadtrip", "desert", "sunlight"],
+    "summary": "A fashion-forward road portrait: sunglasses, scarf, and the desert rolling by.",
+    "coverImage": "/workpics/035.jpg",
+    "description": [
+      "Pink Scarf Mile frames travel as personal style — relaxed, bright, and quietly iconic.",
+      "The work exists independently of PonyLife and is not owned or controlled by the platform."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "If you post it, keep the credit intact and the story honest." },
+      { "title": "Learn context", "text": "Understand why this work joined the PonyLife ecosystem and how participation functions." }
+    ]
+  },
+  {
+    "slug": "cosmic-regalia",
+    "title": "Cosmic Regalia",
+    "creator": "Orchid Astrum",
+    "medium": "Digital Art",
+    "price": 145,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-13",
+    "tags": ["fantasy", "celestial", "goddess", "ornate", "mythic"],
+    "summary": "An ornate celestial visage crowned with cosmic geometry and star-lit filigree.",
+    "coverImage": "/workpics/039.jpg",
+    "description": [
+      "Cosmic Regalia blends icon-like symmetry with deep-space motifs, turning portraiture into ritual design.",
+      "PonyLife provides context and coordination — not ownership, distribution, or guarantees."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it thoughtfully where cosmic/fantasy art is genuinely welcome." },
+      { "title": "Collect or access", "text": "Any terms are defined only by the creator." },
+      { "title": "Learn context", "text": "Read the project principles before participating." }
+    ]
+  },
+  {
+    "slug": "moon-orbit-muse",
+    "title": "Moon Orbit Muse",
+    "creator": "Orchid Astrum",
+    "medium": "Digital Art",
+    "price": 150,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-13",
+    "tags": ["fantasy", "planets", "moon", "surreal", "epic-portrait"],
+    "summary": "A dreamlike figure in crimson moves through a field of planets and suspended light.",
+    "coverImage": "/workpics/034.jpg",
+    "description": [
+      "Moon Orbit Muse treats gravity as poetry: drifting spheres, flowing hair, and a quiet sense of power.",
+      "This work is associated with PonyLife as a visibility experiment — not as a promise of outcome."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Discuss it, remix your commentary, or cite it — transparently." },
+      { "title": "Collect or access", "text": "Access or acquisition terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "hammock-hour-sloth",
+    "title": "Hammock Hour (Sloth)",
+    "creator": "Tropic Side Studio",
+    "medium": "Digital Art",
+    "price": 99,
+    "language": "EN",
+    "status": "Active",
+    "featured": false,
+    "updatedAt": "2026-01-13",
+    "tags": ["cute", "tropical", "chill", "humor", "vacation"],
+    "summary": "A sloth lounges in a hammock at golden hour — sunglasses on, worries off.",
+    "coverImage": "/workpics/040.jpg",
+    "description": [
+      "Hammock Hour (Sloth) is a warm, comic reminder that rest can be a lifestyle choice.",
+      "The work exists independently of PonyLife and is not owned or controlled by the platform."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it if it makes someone smile. Keep it simple." },
+      { "title": "Collect or access", "text": "Any terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "hammock-hour-hedgehog",
+    "title": "Hammock Hour (Hedgehog)",
+    "creator": "Tropic Side Studio",
+    "medium": "Digital Art",
+    "price": 95,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-13",
+    "tags": ["cute", "tropical", "sunset", "relax", "character"],
+    "summary": "A tiny hedgehog sips something citrusy under palm trees, perfectly unbothered.",
+    "coverImage": "/workpics/041.jpg",
+    "description": [
+      "Hammock Hour (Hedgehog) pairs soft comedy with vacation colors for an easy, friendly mood.",
       "PonyLife provides context and coordination — not distribution or guarantees."
     ],
     "participation": [
-      { "title": "Promote this work", "text": "Reference it, quote it, discuss it — truthfully and transparently." },
-      { "title": "Learn context", "text": "Read the project principles before participating." }
+      { "title": "Promote this work", "text": "Post it where cozy/vacation vibes belong — no spam." },
+      { "title": "Collect or access", "text": "Terms (if any) are defined only by the creator." }
+    ]
+  },
+  {
+    "slug": "island-luxury-potato",
+    "title": "Island Luxury Potato",
+    "creator": "Tropic Side Studio",
+    "medium": "Digital Art",
+    "price": 105,
+    "language": "EN",
+    "status": "Active",
+    "featured": true,
+    "updatedAt": "2026-01-13",
+    "tags": ["humor", "mascot", "tropical", "luxury", "relaxation"],
+    "summary": "A potato lives the high life: sunglasses, a drink, and a slow day by the water.",
+    "coverImage": "/workpics/042.jpg",
+    "description": [
+      "Island Luxury Potato turns an everyday object into a confident mascot for doing absolutely nothing.",
+      "This work is associated with PonyLife as a visibility experiment — not as a promise of outcome."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "Share it because it fits your feed, not because it’s “required.”" },
+      { "title": "Collect or access", "text": "Any acquisition or access terms are defined solely by the creator." }
+    ]
+  },
+  {
+    "slug": "keybearer-owl",
+    "title": "Keybearer Owl",
+    "creator": "Clockroot Atelier",
+    "medium": "Digital Art",
+    "price": 140,
+    "language": "EN",
+    "status": "New",
+    "featured": false,
+    "updatedAt": "2026-01-13",
+    "tags": ["fantasy", "owl", "steampunk", "artifact", "character-design"],
+    "summary": "A wide-eyed owl stands like a guardian, holding an ornate key to an unseen door.",
+    "coverImage": "/workpics/043.jpg",
+    "description": [
+      "Keybearer Owl is a collectible-style character portrait built from feathers, metal, and quiet magic.",
+      "The work exists independently of PonyLife and is not owned or controlled by the platform.",
+      "It has been associated with PonyLife to participate in a shared visibility experiment."
+    ],
+    "participation": [
+      { "title": "Promote this work", "text": "If you feature it, keep credit clear and avoid misleading framing." },
+      { "title": "Collect or access", "text": "Where applicable, terms are defined solely by the creator." },
+      { "title": "Learn context", "text": "Understand why this work joined the PonyLife ecosystem and how participation functions." }
     ]
   }
 ]

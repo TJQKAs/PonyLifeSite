@@ -13,12 +13,12 @@ export default function CatalogClient({ works }: { works: Work[] }) {
   const [sort, setSort] = useState("New");
 
   const scrollerRef = useRef<HTMLDivElement>(null);
-
-  function scroll(dir: 1 | -1) {
+    function scroll(dir: 1 | -1) {
     const el = scrollerRef.current;
     if (!el) return;
     el.scrollBy({ left: dir * 320, behavior: "smooth" });
   }
+
 
   const mediums = useMemo(() => ["All", ...unique(works.map((w) => w.medium))], [works]);
   const statuses = useMemo(() => ["All", ...unique(works.map((w) => w.status))], [works]);
@@ -145,62 +145,55 @@ export default function CatalogClient({ works }: { works: Work[] }) {
       {filtered.length === 0 ? (
         <div className={styles.empty}>No works match your filters. Try a different search term.</div>
       ) : (
-        <section className={styles.carouselWrap}>
-          <div className={styles.carouselNav}>
-            <button type="button" onClick={() => scroll(-1)} className={styles.carouselBtn}>
-              ←
-            </button>
-            <button type="button" onClick={() => scroll(1)} className={styles.carouselBtn}>
-              →
-            </button>
-          </div>
-
-          <div ref={scrollerRef} className={styles.carousel}>
-            {filtered.map((w) => (
-              <Link
-                key={w.slug}
-                href={`/catalog/${w.slug}`}
-                className={`${styles.card} ${styles.carouselCard}`}
-              >
-                <div className={styles.cover}>
-                  {w.coverImage ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img src={w.coverImage} alt="" className={styles.coverInner} />
-                  ) : null}
-                </div>
-
-                <div className={styles.metaRow}>
-                  <span>{w.creator}</span>
-                  <span>{w.status}</span>
-                </div>
-
-                <h3 className={styles.h3}>{w.title}</h3>
-
-                <p className={styles.p}>{w.summary}</p>
-
-                {typeof w.price === "number" ? (
-                  <div className={styles.metaRow}>
-                    <span>Price</span>
-                    <span>{w.price} PNL</span>
-                  </div>
+      <section className={styles.carouselWrap}>
+        <div ref={scrollerRef} className={styles.carousel}>
+          {filtered.map((w) => (
+            <Link
+              key={w.slug}
+              href={`/catalog/${w.slug}`}
+              className={`${styles.card} ${styles.carouselCard}`}
+            >
+              <div className={styles.cover}>
+                {w.coverImage ? (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={w.coverImage} alt="" className={styles.coverInner} />
                 ) : null}
+              </div>
 
+              <div className={styles.metaRow}>
+                <span>{w.creator}</span>
+                <span>{w.status}</span>
+              </div>
+
+              <h3 className={styles.h3}>{w.title}</h3>
+
+              <p className={styles.p}>{w.summary}</p>
+
+              {typeof w.price === "number" && (
                 <div className={styles.metaRow}>
-                  <span>{w.medium}</span>
-                  <span>{w.language || "N/A"}</span>
+                  <span>Price</span>
+                  <span>{w.price} PNL</span>
                 </div>
+              )}
 
-                <div className={styles.tags}>
-                  {w.tags.slice(0, 4).map((t) => (
-                    <span key={t} className={styles.tag}>
-                      #{t}
-                    </span>
-                  ))}
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
+              <div className={styles.metaRow}>
+                <span>{w.medium}</span>
+                <span>{w.language || "N/A"}</span>
+              </div>
+
+              <div className={styles.tags}>
+                {w.tags.slice(0, 4).map((t) => (
+                  <span key={t} className={styles.tag}>#{t}</span>
+                ))}
+              </div>
+            </Link>
+          ))}
+        </div>
+        <div className={styles.carouselNav}>
+          <button onClick={() => scroll(-1)} className={styles.carouselBtn}>←</button>
+          <button onClick={() => scroll(1)} className={styles.carouselBtn}>→</button>
+        </div>
+      </section>
       )}
     </div>
   );
