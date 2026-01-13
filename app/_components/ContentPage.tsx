@@ -14,7 +14,7 @@ export type ContentPageData = {
   }>;
 };
 
-export default function ContentPage({ data }: { data: ContentPageData }) {
+export default function ContentPage({ data, children, }: { data: ContentPageData; children?: React.ReactNode; }) {
   return (
     <div className={styles.wrap}>
       <div className={styles.bgTexture} />
@@ -39,7 +39,7 @@ export default function ContentPage({ data }: { data: ContentPageData }) {
           </div>
         ) : null}
       </header>
-
+  
       <section className={styles.grid}>
         {data.sections.map((s) => (
           <article key={s.heading} className={styles.card}>
@@ -48,6 +48,7 @@ export default function ContentPage({ data }: { data: ContentPageData }) {
           </article>
         ))}
       </section>
+         {children ? <div className={styles.center}>{children}</div> : null}
     </div>
   );
 }
