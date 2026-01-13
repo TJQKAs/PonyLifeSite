@@ -22,9 +22,11 @@ type HomeContent = {
 export default function HomeClient({
   content,
   featuredWorks,
+  catalogCount,
 }: {
   content: HomeContent;
   featuredWorks: Work[];
+  catalogCount: number;
 }) {
   const [loading, setLoading] = useState(true);
 
@@ -114,7 +116,7 @@ export default function HomeClient({
 
         <div style={{ marginTop: 14 }}>
           <Link className={`${styles.btn} ${styles.btnSecondary}`} href="/catalog">
-            {content.featured.ctaLabel}
+              {content.featured.ctaLabel}: {catalogCount} items
           </Link>
         </div>
       </section>

@@ -4,5 +4,5 @@ import type { Work } from "../../lib/types";
  
 export default async function CatalogPage() {
   const works = await loadJson<Work[]>("content/works.json");
-  return <CatalogClient works={works} />;
+  return <CatalogClient works={works} totalCount={works.length}/>;
 }

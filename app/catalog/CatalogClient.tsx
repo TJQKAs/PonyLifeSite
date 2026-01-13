@@ -5,7 +5,7 @@ import { useMemo, useRef, useState } from "react";
 import styles from "./catalog.module.css";
 import type { Work } from "../../lib/types";
 
-export default function CatalogClient({ works }: { works: Work[] }) {
+export default function CatalogClient({ works, totalCount }: { works: Work[]; totalCount: number; }) {
   const [q, setQ] = useState("");
   const [medium, setMedium] = useState("All");
   const [status, setStatus] = useState("All");
@@ -95,6 +95,9 @@ export default function CatalogClient({ works }: { works: Work[] }) {
         <p className={styles.subtitle}>
           A public list of works voluntarily associated with the PonyLife ecosystem. Inclusion does
           not imply endorsement, valuation, or expected outcomes.
+        </p>
+        <p className={styles.subtitle} style={{ marginTop: 6 }}>
+          Total: {totalCount} items
         </p>
 
         <div className={styles.controls}>

@@ -17,5 +17,5 @@ export default async function HomePage() {
 
   const featuredWorks = works.slice(0, 3);
 
-  return <HomeClient content={content} featuredWorks={featuredWorks} />;
+  return <HomeClient content={content} featuredWorks={featuredWorks} catalogCount={works.length}/>;
 }
