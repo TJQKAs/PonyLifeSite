@@ -8,11 +8,13 @@ export type ContactState =
   | null;
 
 function stripControls(s: string) {
+  // убираем управляющие символы, включая \r \n
   return s.replace(/[\u0000-\u001F\u007F]/g, "");
 }
 
 function sanitizeText(raw: FormDataEntryValue | null, maxLen: number) {
   const s = stripControls(String(raw ?? "")).trim();
+  // убираем угловые скобки, чтобы HTML/скрипты не “выглядели как HTML”
   const cleaned = s.replace(/[<>]/g, "");
   return cleaned.length > maxLen ? cleaned.slice(0, maxLen) : cleaned;
 }
@@ -26,7 +28,7 @@ export async function sendContact(
   formData: FormData
 ): Promise<ContactState> {
   try {
-    // honeypot
+    // honeypot (боты часто его заполняют)
     const hp = sanitizeText(formData.get("company"), 80);
     if (hp) return { ok: true };
 
@@ -38,10 +40,6 @@ export async function sendContact(
     if (!email) return { ok: false, error: "E-mail is required." };
     if (!isValidEmail(email)) return { ok: false, error: "E-mail looks invalid." };
     if (!message) return { ok: false, error: "Message is required." };
-
-    if (/[\\r\\n]/.test(email) || /[\\r\\n]/.test(name)) {
-      return { ok: false, error: "Invalid input." };
-    }
 
     const resend = new Resend(process.env.RESEND_API_KEY);
     const to = process.env.CONTACT_TO_EMAIL!;
@@ -56,7 +54,14 @@ export async function sendContact(
     });
 
     return { ok: true };
-  } catch {
+  } catch (e: any) {
+    const msg = String(e?.message ?? "");
+
+    // Если домен/поддомен ещё не verified, Resend обычно отказывает в отправке
+    if (msg.toLowerCase().includes("verify") || msg.toLowerCase().includes("domain")) {
+      return { ok: false, error: "Email domain is not verified yet in Resend (status: Pending)." };
+    }
+
     return { ok: false, error: "Failed to send. Please try again later." };
   }
 }
