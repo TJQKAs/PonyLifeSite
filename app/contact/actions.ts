@@ -54,14 +54,9 @@ export async function sendContact(
     });
 
     return { ok: true };
-  } catch (e: any) {
+   } catch (e: any) {
     const msg = String(e?.message ?? "");
-
-    // Если домен/поддомен ещё не verified, Resend обычно отказывает в отправке
-    if (msg.toLowerCase().includes("verify") || msg.toLowerCase().includes("domain")) {
-      return { ok: false, error: "Email domain is not verified yet in Resend (status: Pending)." };
-    }
-
-    return { ok: false, error: "Failed to send. Please try again later." };
+    // Временно покажем реальную ошибку (без секретов)
+    return { ok: false, error: `Send failed: ${msg || "Unknown error"}` };
   }
 }
