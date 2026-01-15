@@ -43,8 +43,7 @@ export async function sendContact(
 
     const resend = new Resend(process.env.RESEND_API_KEY);
     const to = process.env.CONTACT_TO_EMAIL!;
-    const from = process.env.CONTACT_FROM_EMAIL!; // например contact@send.ponylife.art
-
+    const from = process.env.CONTACT_FROM_EMAIL!; // например contact@send.ponylife.art 
     await resend.emails.send({
       from,
       to,
@@ -60,3 +59,4 @@ export async function sendContact(
     return { ok: false, error: `Send failed: ${msg || "Unknown error"}` };
   }
 }
+// просто деплой
