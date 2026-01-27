@@ -1,26 +1,30 @@
 {
   "title": "Creators",
-  "subtitle": "Associate your work with a shared coordination layer. PonyLife does not manage, monetize, or guarantee outcomes.",
+  "subtitle": "Place your creative asset into a coordinated framework where visibility, participation, and potential outcomes are explored collectively rather than in isolation.",
   "cta": [
     { "label": "Explore Works", "href": "/catalog", "variant": "secondary" },
     { "label": "Docs / FAQ", "href": "/docs", "variant": "primary" }
   ],
   "sections": [
     {
-      "heading": "What it means to associate a work",
-      "body": "Your work becomes visible within a shared ecosystem. It can be discovered and promoted by independent participants. You retain full ownership and control."
+      "heading": "What participation means",
+      "body": "By submitting a creative asset to PonyLife, you include it in a shared coordination system designed to experiment with distribution, visibility, and commercialization pathways. Your work is no longer promoted in isolation, but as part of a structured ecosystem."
     },
     {
-      "heading": "What PonyLife does not do",
-      "body": "PonyLife does not sell your work, does not promise visibility, does not manage promotion, and does not guarantee outcomes. This is participation, not representation."
+      "heading": "Ownership and delegated rights",
+      "body": "You retain full ownership and authorship of your work at all times. By participating, you delegate limited commercialization and participation rights to the platform, allowing PonyLife to coordinate promotion, representation, and potential realization of the asset under predefined rules."
     },
     {
-      "heading": "What creators receive",
-      "body": "Creators may receive participation units (PNL) and benefit from an experimental visibility context. Any outcomes remain uncertain and independent."
+      "heading": "Participation units (PNL)",
+      "body": "Based on an internal, non-binding assessment of the submitted asset, participation units (PNL) may be allocated to you. These units reflect conditional participation in the ecosystem and are used for coordination purposes — not as a guaranteed valuation or promise of outcome."
     },
     {
-      "heading": "Submission (MVP)",
-      "body": "In the MVP stage, submissions are handled via a simple form or contact channel. Acceptance is not guaranteed."
+      "heading": "Outcomes and realization",
+      "body": "If a creative asset is successfully realized or commercialized, economic outcomes are handled at the platform level according to predefined participation rules. Participation units allocated to the creator remain with them and become freely usable after realization."
+    },
+    {
+      "heading": "What PonyLife does not promise",
+      "body": "PonyLife does not guarantee sales, exposure, or financial results. Participation involves uncertainty and experimentation. The platform coordinates opportunities and outcomes, but does not optimize for individual success at the expense of system integrity."
     }
   ]
 }

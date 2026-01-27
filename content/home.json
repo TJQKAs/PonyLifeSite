@@ -1,29 +1,29 @@
 {
-  "heroTitle": "PonyLife is a coordination platform for intangible creative assets, designed to enable shared experimentation with visibility, liquidity, and economic outcomes through delegated rights and collective participation mechanisms.",
-  "heroSubtitle": "We study how shared participation can redistribute attention and uncertainty without financial promises, guarantees, or optimization for “hits”.",
+  "heroTitle": "PonyLife is a coordination platform for creative assets — built to experiment with visibility, participation, and real-world outcomes through delegated commercialization rights.",
+  "heroSubtitle": "Creators keep ownership. PonyLife coordinates structured promotion and participation mechanics across a shared ecosystem — without promising financial returns or guaranteed results.",
   "ctaPrimary": "Explore Works",
   "ctaSecondary": "Learn How It Works",
   "cards": [
     {
-      "title": "Works enter a shared ecosystem",
-      "text": "Creative works are associated with PonyLife to exist within a common visibility layer rather than in isolation."
+      "title": "Submit a work, keep ownership",
+      "text": "Creators list an intangible creative asset with context and media. Ownership remains with the creator while the work enters the PonyLife ecosystem."
     },
     {
-      "title": "Participation replaces prediction",
-      "text": "Participants coordinate attention and effort without knowing outcomes in advance."
+      "title": "Delegate limited commercialization rights",
+      "text": "Creators can delegate specific rights so the platform may coordinate distribution, promotion, and commercialization pathways under predefined rules."
     },
     {
-      "title": "Outcomes remain independent",
-      "text": "Each work succeeds or fails on its own terms. PonyLife does not pool or guarantee results."
+      "title": "Participation is structured, outcomes are uncertain",
+      "text": "The ecosystem coordinates attention and effort through participation mechanisms. Outcomes may happen — but are not guaranteed."
     },
     {
-      "title": "PNL enables coordination",
-      "text": "A token is used only as a mechanism for participation and alignment — not as an investment product."
+      "title": "PNL supports participation and internal coordination",
+      "text": "The token is used to represent participation and coordination within the ecosystem. It is not equity and not a promise of financial returns."
     }
-   ],
-    "featured": {
+  ],
+  "featured": {
     "title": "Featured Works",
-    "subtitle": "A small selection from the public catalog. Inclusion does not imply endorsement, valuation, or expected outcomes.",
+    "subtitle": "A small selection from the public catalog. Inclusion reflects participation in the PonyLife ecosystem — not endorsement, pricing, or expected outcomes.",
     "ctaLabel": "View Full Catalog"
   }
 }

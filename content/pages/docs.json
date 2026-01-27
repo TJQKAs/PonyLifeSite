@@ -1,26 +1,82 @@
 {
   "title": "Docs",
-  "subtitle": "Clear explanations, definitions, and boundaries. No hype language.",
+  "subtitle": "Official documentation hub: product notes, investor materials, and legal disclosures. Clear language, no hype.",
   "cta": [
     { "label": "Transparency", "href": "/transparency", "variant": "secondary" },
     { "label": "Catalog", "href": "/catalog", "variant": "primary" }
   ],
-  "sections": [
+  "groups": [
     {
-      "heading": "FAQ",
-      "body": "PonyLife is not an investment platform. It does not offer returns, guarantees, or financial promises. Participation is voluntary and uncertain."
+      "heading": "Product & Participation",
+      "body": "How the platform works, roles, participation mechanics, and boundaries.",
+      "items": [
+        {
+          "title": "How It Works",
+          "description": "A step-by-step overview of submission, delegated rights, internal valuation, coordination, and outcome handling.",
+          "format": "PDF",
+          "href": "/docs/HOW_IT_WORKS.pdf"
+        },
+        {
+          "title": "Role of the Token (PNL)",
+          "description": "What PNL represents, why it exists, what it is not, and how it supports coordination.",
+          "format": "PDF",
+          "href": "/docs/ROLE_OF_THE_TOKEN.pdf"
+        }
+      ]
     },
     {
-      "heading": "Glossary",
-      "body": "Coordination: aligning independent actions. Participation: voluntary involvement without guaranteed outcomes. Outcome: externally observable result."
+      "heading": "Investor Pack",
+      "body": "Core narrative and operating logic for partners and early-stage investors.",
+      "items": [
+        {
+          "title": "Why PonyLife Is Different",
+          "description": "Coordination-first positioning vs marketplaces, curation, and isolated promotion.",
+          "format": "PDF",
+          "href": "/docs/WHY_PONYLIFE_IS_DIFFERENT.pdf"
+        },
+        {
+          "title": "Revenue Model",
+          "description": "Platform-level monetization independent of token issuance or hype dynamics.",
+          "format": "PDF",
+          "href": "/docs/REVENUE_MODEL.pdf"
+        },
+        {
+          "title": "Roadmap (Starting H2 2026)",
+          "description": "Phased plan from H2 2026 through 2027 focused on validation before scale.",
+          "format": "PDF",
+          "href": "/docs/ROADMAP_H2_2026.pdf"
+        },
+        {
+          "title": "What We Are Asking For",
+          "description": "The type of capital, partners, and expertise we are looking for at this stage.",
+          "format": "PDF",
+          "href": "/docs/WHAT_WE_ARE_ASKING_FOR.pdf"
+        }
+      ]
     },
     {
-      "heading": "Terms & privacy",
-      "body": "Terms and privacy policies are provided for transparency and clarity. The MVP uses minimal data collection."
-    },
-    {
-      "heading": "Contact",
-      "body": "For questions or submissions, use the contact page or linked channels."
+      "heading": "Legal & Policies",
+      "body": "Official legal documentation and disclosures. These documents define boundaries for participation.",
+      "items": [
+        {
+          "title": "Terms of Use",
+          "description": "Rules for using the website and platform features.",
+          "format": "HTML",
+          "href": "/docs/terms"
+        },
+        {
+          "title": "Privacy Policy",
+          "description": "What data is collected and how it is processed.",
+          "format": "HTML",
+          "href": "/docs/privacy"
+        },
+        {
+          "title": "Token & Risk Disclosure",
+          "description": "Non-investment framing, risk factors, and participation uncertainty.",
+          "format": "HTML",
+          "href": "/docs/token-disclosure"
+        }
+      ]
     }
   ]
 }

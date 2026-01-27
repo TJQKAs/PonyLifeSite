@@ -60,7 +60,7 @@ export default async function TransparencyPage() {
 
             <div className={styles.key}>Contract</div>
             <div className={styles.value}>
-              {data.infrastructure.contractVerified ? "Verified" : "Not verified"}
+           {data.infrastructure.contractVerified ? "Verified ✅" : "Not verified ⚠️"}
             </div>
           </div>
 
@@ -72,6 +72,9 @@ export default async function TransparencyPage() {
         {/* Links */}
         <div className={`${styles.card} ${styles.fullWidth}`}>
           <h3 className={styles.h3}>Public references</h3>
+          <p className={styles.p} style={{ marginTop: 6, marginBottom: 12 }}>
+  These references allow anyone to independently verify the public infrastructure.
+</p>
           <div className={styles.links}>
             {data.links.map((l) => {
               const external = l.href.startsWith("http");

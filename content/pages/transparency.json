@@ -1,12 +1,12 @@
 {
   "title": "Transparency",
-  "subtitle": "PonyLife operates in the open. Clear principles, public infrastructure, and versioned changes.",
+  "subtitle": "PonyLife operates in the open: clear boundaries, verifiable infrastructure, and versioned changes.",
   "principles": [
-    "No fiduciary responsibility",
-    "No custody of user funds",
-    "No financial guarantees",
-    "No outcome optimization",
-    "Website first, token second"
+    "Clear roles and boundaries (Creators, Promoters, Collectors, Platform)",
+    "Creators retain ownership; the platform coordinates participation and delegated commercialization rights",
+    "Publicly verifiable infrastructure (contracts, network, references)",
+    "No guarantees: outcomes are uncertain and emerge through coordination",
+    "Platform-first: experimentation and product integrity before distribution scale"
   ],
   "infrastructure": {
     "network": "Base",
@@ -14,7 +14,7 @@
     "pair": "PNL / USDC",
     "supply": "Fixed",
     "contractVerified": true,
-    "notes": "Liquidity exists at experimental levels. Participation involves uncertainty."
+    "notes": "PNL supports participation and coordination inside the ecosystem. Market activity may exist externally and is independent of platform guarantees or promises."
   },
   "links": [
     {
@@ -25,15 +25,15 @@
     {
       "label": "Uniswap (Pool / Swap)",
       "href": "https://app.uniswap.org/explore/pools/base/0x13e7c37e0949ab45b141fd6705314eef1e4812a666d9c908bb83edf361fc855d?utm_source=share-pool&utm_medium=web",
-      "description": "Open market interface. No price talk. No promises."
+      "description": "Public market interface. PonyLife does not present PNL as an investment opportunity."
     },
     {
       "label": "Project Docs",
       "href": "/docs",
-      "description": "FAQ and glossary. Clear boundaries and definitions."
+      "description": "Definitions, boundaries, and FAQ."
     }
   ],
-  "disclaimer": "PonyLife is an experimental coordination platform. It is not a fund, not a financial product, and provides no guarantees. Any participation is voluntary and involves uncertainty.",
+  "disclaimer": "PonyLife is an experimental coordination platform for creative assets. Participation is voluntary and involves uncertainty. PonyLife does not guarantee outcomes and does not offer financial advice or promises of returns.",
   "changelog": [
     { "date": "2026-01-02", "text": "Standalone website deployed on ponylife.art (MVP)." },
     { "date": "2026-01-04", "text": "Catalog and work pages added (content-driven)." },

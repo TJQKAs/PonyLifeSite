@@ -1,6 +1,6 @@
 {
   "title": "Promoters",
-  "subtitle": "Promoters are independent participants who select works from the catalog and promote them autonomously. No assignments. No guarantees.",
+  "subtitle": "Promoters are independent participants who contribute to visibility and potential realization of creative assets by selecting and promoting works within the PonyLife coordination framework.",
   "cta": [
     { "label": "Browse Catalog", "href": "/catalog", "variant": "primary" },
     { "label": "Transparency", "href": "/transparency", "variant": "secondary" }
@@ -8,19 +8,19 @@
   "sections": [
     {
       "heading": "Selecting works",
-      "body": "Choose any public work from the catalog. No permission required. No exclusivity."
+      "body": "Promoters may independently select any publicly listed work from the catalog. No prior approval or exclusive agreement is required. Selection reflects individual interest and initiative rather than assignment."
     },
     {
-      "heading": "Promotion is self-directed",
-      "body": "Promotion methods are entirely up to you. PonyLife does not provide scripts, campaigns, or messaging instructions."
+      "heading": "Independent promotion",
+      "body": "Promotion methods are self-directed. Promoters choose how, where, and to whom works are presented. The platform does not prescribe campaigns, messaging, or distribution strategies."
     },
     {
-      "heading": "Outcomes",
-      "body": "An outcome is any externally observable result linked to a work (for example: a sale, exhibition, license, or audience growth). Outcomes are uncertain."
+      "heading": "Role in coordination",
+      "body": "Promoters form a distributed visibility layer within the ecosystem. Their actions contribute to experimentation with how creative assets reach audiences, markets, and potential realization pathways."
     },
     {
-      "heading": "Reporting (prototype)",
-      "body": "Promoters may report outcomes for transparency. Reporting does not imply validation, compensation, or guarantees."
+      "heading": "Outcomes and reporting",
+      "body": "Outcomes may include sales, exhibitions, licenses, partnerships, or other externally observable results. Promoters may report outcomes to support transparency and system learning. Reporting does not imply compensation, validation, or guaranteed recognition."
     }
   ]
 }
