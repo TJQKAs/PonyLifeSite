@@ -1,0 +1,68 @@
+{
+  "title": "Token & Risk Disclosure",
+  "subtitle": "PNL is designed for participation and coordination within PonyLife. Participation involves uncertainty and risk.",
+  "updated": "2026-02-01",
+  "sections": [
+    {
+      "heading": "1. Purpose of PNL",
+      "paragraphs": [
+        "PNL is a participation and coordination token used inside the PonyLife ecosystem to support internal accounting, alignment, and coordination mechanisms.",
+        "PNL is not equity, not ownership in PonyLife, and not a guarantee of outcomes."
+      ]
+    },
+    {
+      "heading": "2. What PNL Is Not",
+      "bullets": [
+        "Not a security by design",
+        "Not an investment contract",
+        "Not a yield or interest-bearing instrument",
+        "Not a promise of price appreciation or guaranteed liquidity"
+      ]
+    },
+    {
+      "heading": "3. Allocation and Internal Assessment",
+      "paragraphs": [
+        "PonyLife may perform internal, non-binding assessments of submitted Works for coordination purposes.",
+        "Based on internal assessment, participation units (PNL) may be reserved or allocated to reflect conditional involvement in the ecosystem.",
+        "Internal assessments are experimental and do not constitute market valuation."
+      ]
+    },
+    {
+      "heading": "4. Outcomes Are Uncertain",
+      "paragraphs": [
+        "Visibility, commercialization, and other outcomes depend on market conditions and coordination effectiveness.",
+        "PonyLife does not guarantee outcomes and does not provide financial advice."
+      ]
+    },
+    {
+      "heading": "5. Market Risk (If External Markets Exist)",
+      "paragraphs": [
+        "If PNL is traded externally, market prices may be volatile and may not reflect platform activity.",
+        "External market activity occurs independently and is not presented by PonyLife as an investment opportunity."
+      ]
+    },
+    {
+      "heading": "6. Technology and Security Risks",
+      "bullets": [
+        "Smart contract vulnerabilities or unexpected behavior",
+        "Network congestion, outages, or protocol changes",
+        "Wallet security risks (loss of keys, phishing, malware)",
+        "Third-party infrastructure failures"
+      ]
+    },
+    {
+      "heading": "7. Regulatory and Legal Risks",
+      "paragraphs": [
+        "Rules for digital assets may vary by jurisdiction and may change over time.",
+        "You are responsible for understanding applicable laws, regulations, and tax obligations in your jurisdiction."
+      ]
+    },
+    {
+      "heading": "8. No Guarantees",
+      "paragraphs": [
+        "PNL participation does not guarantee financial returns, outcomes, or liquidity.",
+        "Any use of the platform is at your own risk."
+      ]
+    }
+  ]
+}

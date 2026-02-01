@@ -1,0 +1,54 @@
+{
+  "title": "Revenue Model",
+  "subtitle": "PonyLife targets platform-level revenue driven by coordination effectiveness — not by token issuance or speculation.",
+  "updated": "2026-02-01",
+  "sections": [
+    {
+      "heading": "Overview",
+      "paragraphs": [
+        "PonyLife is designed to generate revenue at the platform level, independently of token issuance or token price dynamics.",
+        "Revenue is tied to platform usage and successful coordination, not speculation."
+      ]
+    },
+    {
+      "heading": "Core Revenue Streams",
+      "bullets": [
+        "Outcome-based platform fees: a predefined share of economic outcomes when assets are successfully commercialized through the coordination framework",
+        "Optional creator services: advanced analytics, visibility tools, promotional coordination features, tooling for representation and rights management",
+        "Platform partnerships (future): licensing coordination tooling, integrations, and B2B offerings aligned with platform maturity"
+      ]
+    },
+    {
+      "heading": "Outcome-Based Platform Fees",
+      "paragraphs": [
+        "Platform fees apply only if outcomes occur. There is no required upfront cost for creators to participate, and incentives are aligned between the platform and participants.",
+        "This reduces friction for creators, avoids pay-to-list dynamics, and ties revenue to real platform effectiveness."
+      ]
+    },
+    {
+      "heading": "What PonyLife Does Not Monetize",
+      "paragraphs": [
+        "The platform does not rely on token issuance, token sales, or token trading fees as a primary revenue source.",
+        "This separation is intentional and strategic."
+      ],
+      "bullets": [
+        "No primary token sales to users",
+        "No promise of token appreciation",
+        "No dependency on market hype"
+      ]
+    },
+    {
+      "heading": "Why This Model Is Sustainable",
+      "paragraphs": [
+        "Revenue emerges from coordination effectiveness, not from attention extraction or financial engineering.",
+        "This supports experimentation without over-optimizing short-term profit and aligns platform growth with ecosystem health."
+      ]
+    },
+    {
+      "heading": "One Sentence Summary",
+      "paragraphs": [
+        "PonyLife earns revenue by coordinating successful outcomes and providing optional platform services — not by selling access or speculation."
+      ]
+    }
+  ]
+}

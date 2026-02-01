@@ -1,0 +1,263 @@
+.wrap{
+  position: relative;
+  isolation: isolate;
+  padding: 28px 0;
+}
+
+/* можно переиспользовать паттерн Home: glow + texture */
+.bgTexture{
+  position: absolute;
+  inset: -120px;
+  z-index: -2;
+  background-image:
+    url("/brand/bg-15.png"),
+    url("/brand/bg-16.png");
+  background-size: cover, cover;
+  background-position: center, center;
+  opacity: 0.10;
+  filter: blur(20px) saturate(1.05);
+  transform: scale(1.06);
+}
+
+.bgGlow{
+  position: absolute;
+  inset: -80px;
+  z-index: -3;
+  background:
+    radial-gradient(900px 650px at 20% 10%, rgba(255,138,61,0.12), transparent 60%),
+    radial-gradient(900px 650px at 75% 25%, rgba(34,211,238,0.14), transparent 62%),
+    radial-gradient(1000px 700px at 55% 95%, rgba(168,85,247,0.12), transparent 60%);
+  filter: blur(6px);
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 0 8px;
+  margin-bottom: 18px;
+}
+
+.title{
+  margin: 0;
+  font-size: clamp(30px, 2.6vw, 44px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.subtitle{
+  margin: 0;
+  max-width: 920px;
+  color: var(--muted);
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+.actions{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.btn{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 12px;
+  color: var(--text);
+  user-select: none;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+  box-shadow:
+    0 18px 45px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.14);
+  transition: transform 160ms ease, box-shadow 160ms ease, color 160ms ease, font-weight 160ms ease;
+  text-decoration: none;
+}
+
+.btn::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 1px;
+  background: linear-gradient(90deg,
+    rgba(34,211,238,0.55),
+    rgba(168,85,247,0.55),
+    rgba(255,138,61,0.55)
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.btnPrimary{
+  background: linear-gradient(180deg, rgba(34,211,238,0.14), rgba(59,130,246,0.07));
+}
+
+.btnSecondary{
+  opacity: 0.92;
+}
+
+.btn:hover{
+  transform: translateY(-1px);
+  box-shadow:
+    0 24px 60px rgba(0,0,0,0.42),
+    inset 0 1px 0 rgba(255,255,255,0.16);
+  color: rgba(34,211,238,0.95);
+  font-weight: 700;
+}
+
+.btn:active{
+  transform: translateY(0px) scale(0.99);
+  color: rgba(255,138,61,0.95);
+  font-weight: 700;
+}
+
+/* ===== Docs Hub sections ===== */
+
+.group{
+  margin-top: 16px;
+}
+
+.groupHeading{
+  margin: 0 0 6px 0;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+
+.groupBody{
+  margin: 0 0 10px 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+/* ✅ как тебе нравилось: 2 колонки на desktop, 1 на мобилках */
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 920px){
+  .grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+/* wrapper */
+.cardWrap{
+  position: relative;
+  border-radius: 16px;
+}
+
+/* clickable card area */
+.cardLinkArea{
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+
+  border-radius: 16px;
+  padding: 14px;
+
+  background:
+    radial-gradient(900px 220px at 12% 0%, rgba(34,211,238,0.06), transparent 52%),
+    linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow:
+    0 18px 45px rgba(0,0,0,0.34),
+    inset 0 1px 0 rgba(255,255,255,0.14);
+  backdrop-filter: blur(10px);
+
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.cardLinkArea:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 26px 70px rgba(0,0,0,0.42);
+  border-color: rgba(34,211,238,0.30);
+
+  background:
+    radial-gradient(900px 240px at 12% 0%, rgba(34,211,238,0.13), transparent 55%),
+    radial-gradient(700px 220px at 85% 110%, rgba(168,85,247,0.10), transparent 60%),
+    linear-gradient(180deg, rgba(255,255,255,0.09), rgba(255,255,255,0.035));
+}
+
+.cardLinkArea:focus-visible{
+  outline: none;
+  border-color: rgba(34,211,238,0.45);
+  box-shadow:
+    0 28px 80px rgba(0,0,0,0.46),
+    0 0 0 3px rgba(34,211,238,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.16);
+  transform: translateY(-1px);
+}
+
+.cardTitle{
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  font-weight: 800;
+}
+
+.cardText{
+  position: relative;
+  margin: 8px 0 0 0;
+  color: var(--muted);
+  line-height: 1.6;
+
+  text-decoration: underline;
+  text-decoration-color: rgba(34,211,238,0.0);
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.cardLinkArea:hover .cardText,
+.cardLinkArea:focus-visible .cardText{
+  color: rgba(34,211,238,0.95);
+  text-decoration-color: rgba(34,211,238,0.85);
+}
+
+/* bottom open label */
+.cardActions{
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+.cardAction{
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* Download button (separate) */
+.cardDownload{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.86);
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(0,0,0,0.18);
+  backdrop-filter: blur(10px);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.cardDownload:hover{
+  transform: translateY(-1px);
+  color: rgba(34,211,238,0.95);
+  border-color: rgba(34,211,238,0.30);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.32);
+}

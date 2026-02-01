@@ -12,15 +12,21 @@
       "items": [
         {
           "title": "How It Works",
-          "description": "A step-by-step overview of submission, delegated rights, internal valuation, coordination, and outcome handling.",
+          "description": "Submission → delegated rights → internal valuation → coordination → outcome handling.",
           "format": "PDF",
-          "href": "/docs/HOW_IT_WORKS.pdf"
+          "slug": "how-it-works",
+          "href": "/docs/how-it-works",
+          "pdf": "/downloads/docs/how-it-works.pdf",
+          "contentKey": "content/pages/docs/how-it-works.json"
         },
         {
           "title": "Role of the Token (PNL)",
           "description": "What PNL represents, why it exists, what it is not, and how it supports coordination.",
           "format": "PDF",
-          "href": "/docs/ROLE_OF_THE_TOKEN.pdf"
+          "slug": "role-of-the-token",
+          "href": "/docs/role-of-the-token",
+          "pdf": "/downloads/docs/role-of-the-token.pdf",
+          "contentKey": "content/pages/docs/role-of-the-token.json"
         }
       ]
     },
@@ -32,25 +38,37 @@
           "title": "Why PonyLife Is Different",
           "description": "Coordination-first positioning vs marketplaces, curation, and isolated promotion.",
           "format": "PDF",
-          "href": "/docs/WHY_PONYLIFE_IS_DIFFERENT.pdf"
+          "slug": "why-ponylife-is-different",
+          "href": "/docs/why-ponylife-is-different",
+          "pdf": "/downloads/docs/why-ponylife-is-different.pdf",
+          "contentKey": "content/pages/docs/why-ponylife-is-different.json"
         },
         {
           "title": "Revenue Model",
           "description": "Platform-level monetization independent of token issuance or hype dynamics.",
           "format": "PDF",
-          "href": "/docs/REVENUE_MODEL.pdf"
+          "slug": "revenue-model",
+          "href": "/docs/revenue-model",
+          "pdf": "/downloads/docs/revenue-model.pdf",
+          "contentKey": "content/pages/docs/revenue-model.json"
         },
         {
           "title": "Roadmap (Starting H2 2026)",
           "description": "Phased plan from H2 2026 through 2027 focused on validation before scale.",
           "format": "PDF",
-          "href": "/docs/ROADMAP_H2_2026.pdf"
+          "slug": "roadmap-h2-2026",
+          "href": "/docs/roadmap-h2-2026",
+          "pdf": "/downloads/docs/roadmap-h2-2026.pdf",
+          "contentKey": "content/pages/docs/roadmap-h2-2026.json"
         },
         {
           "title": "What We Are Asking For",
           "description": "The type of capital, partners, and expertise we are looking for at this stage.",
           "format": "PDF",
-          "href": "/docs/WHAT_WE_ARE_ASKING_FOR.pdf"
+          "slug": "what-we-are-asking-for",
+          "href": "/docs/what-we-are-asking-for",
+          "pdf": "/downloads/docs/what-we-are-asking-for.pdf",
+          "contentKey": "content/pages/docs/what-we-are-asking-for.json"
         }
       ]
     },
@@ -62,19 +80,25 @@
           "title": "Terms of Use",
           "description": "Rules for using the website and platform features.",
           "format": "HTML",
-          "href": "/docs/terms"
+          "slug": "terms",
+          "href": "/docs/terms",
+          "contentKey": "content/pages/docs/terms.json"
         },
         {
           "title": "Privacy Policy",
           "description": "What data is collected and how it is processed.",
           "format": "HTML",
-          "href": "/docs/privacy"
+          "slug": "privacy",
+          "href": "/docs/privacy",
+          "contentKey": "content/pages/docs/privacy.json"
         },
         {
           "title": "Token & Risk Disclosure",
           "description": "Non-investment framing, risk factors, and participation uncertainty.",
           "format": "HTML",
-          "href": "/docs/token-disclosure"
+          "slug": "token-disclosure",
+          "href": "/docs/token-disclosure",
+          "contentKey": "content/pages/docs/token-disclosure.json"
         }
       ]
     }

@@ -1,0 +1,91 @@
+{
+  "title": "Roadmap (Starting H2 2026)",
+  "subtitle": "A phased plan focused on validation and coordination learning before expansion.",
+  "updated": "2026-02-01",
+  "sections": [
+    {
+      "heading": "Guiding Principle",
+      "paragraphs": [
+        "The roadmap prioritizes coordination learning over rapid scaling.",
+        "Each phase is designed to validate assumptions before expansion."
+      ]
+    },
+    {
+      "heading": "H2 2026 — Foundation & Narrative Alignment",
+      "paragraphs": [
+        "Objective: Establish a clear, credible foundation for the platform as a coordination system."
+      ],
+      "bullets": [
+        "Finalize platform narrative and positioning",
+        "Separate marketing content from legal and compliance documentation",
+        "Align website, pitch materials, and internal documentation around a coherent model",
+        "Deliver refined website content (vision, how it works, token role)",
+        "Publish a dedicated legal documentation hub (disclaimers, policies, disclosures)",
+        "Create initial creator onboarding guidelines",
+        "Develop internal coordination and valuation framework (experimental)"
+      ]
+    },
+    {
+      "heading": "Q1 2027 — Controlled Alpha & Creator Onboarding",
+      "paragraphs": [
+        "Objective: Test the coordination model with a limited number of real assets."
+      ],
+      "bullets": [
+        "Invite a small, curated group of creators",
+        "Launch controlled coordination experiments",
+        "Observe behavior, friction points, and system dynamics",
+        "Release alpha submission and participation flow",
+        "Create internal analytics on visibility, engagement, and outcome patterns",
+        "Iteratively refine valuation and participation logic"
+      ]
+    },
+    {
+      "heading": "Q2 2027 — Visibility Mechanics & Case Studies",
+      "paragraphs": [
+        "Objective: Translate early experiments into learnings and narratives."
+      ],
+      "bullets": [
+        "Improve visibility distribution mechanisms",
+        "Document real use cases and outcomes",
+        "Publish public case studies (no hype)",
+        "Improve promotion and coordination tooling",
+        "Create feedback loops between creators and platform",
+        "Start early partner conversations"
+      ]
+    },
+    {
+      "heading": "Q3 2027 — Platform Expansion & Partnerships",
+      "paragraphs": [
+        "Objective: Expand cautiously while preserving coordination integrity."
+      ],
+      "bullets": [
+        "Broaden creator access (still controlled)",
+        "Run partnership pilots with aligned institutions/platforms",
+        "Explore B2B coordination use cases",
+        "Refine participation and governance mechanics",
+        "Track ecosystem health metrics"
+      ]
+    },
+    {
+      "heading": "Q4 2027 — Strategic Review & Scaling Decision",
+      "paragraphs": [
+        "Objective: Decide how (and whether) to scale based on real platform behavior."
+      ],
+      "bullets": [
+        "Evaluate experiment performance",
+        "Identify strengths, weaknesses, and unintended effects",
+        "Decide on scaling, pivoting, or deepening focus",
+        "Publish a strategic review document",
+        "Update long-term roadmap",
+        "Prepare investor and partner briefings"
+      ]
+    },
+    {
+      "heading": "Summary",
+      "paragraphs": [
+        "From H2 2026 onward, PonyLife focuses on building a credible coordination framework, validating it through controlled experimentation, and only then considering expansion.",
+        "The roadmap emphasizes learning, adaptability, and long-term system health over rapid, speculative growth."
+      ]
+    }
+  ]
+}

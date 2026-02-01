@@ -1,0 +1,79 @@
+{
+  "title": "Role of the Token (PNL)",
+  "subtitle": "PNL is a coordination and participation mechanism within the PonyLife ecosystem — designed for accounting and alignment, not as an investment instrument.",
+  "updated": "2026-02-01",
+  "sections": [
+    {
+      "heading": "Overview",
+      "paragraphs": [
+        "The PonyLife token is a coordination and participation mechanism within the platform.",
+        "It is designed to support internal accounting, alignment of incentives, and shared experimentation — not to function as an investment instrument."
+      ]
+    },
+    {
+      "heading": "What the Token Represents",
+      "paragraphs": [
+        "The token represents conditional participation within the PonyLife ecosystem."
+      ],
+      "bullets": [
+        "Reflect involvement in coordinated experiments",
+        "Account for delegated participation rights",
+        "Enable internal liquidity between ecosystem participants"
+      ]
+    },
+    {
+      "heading": "What the Token Does Not Represent",
+      "bullets": [
+        "Ownership in PonyLife",
+        "Equity or debt",
+        "A claim on guaranteed financial returns"
+      ]
+    },
+    {
+      "heading": "Why a Token Is Used",
+      "paragraphs": [
+        "Coordination at scale requires a native unit of participation.",
+        "The token enables transparent tracking of participation across many assets and actors, alignment between creators, operators, and promoters, and flexible experimentation with different coordination models.",
+        "Without a native participation unit, coordination remains opaque, centralized, or purely reputational."
+      ]
+    },
+    {
+      "heading": "Token Allocation Logic",
+      "paragraphs": [
+        "Tokens may be allocated to creators based on internal, non-binding asset valuation.",
+        "This allocation reflects conditional participation, is used within the platform’s coordination framework, and may evolve as the ecosystem develops."
+      ],
+      "bullets": [
+        "Allocation does not imply a market price for the asset",
+        "Allocation does not imply a guaranteed outcome",
+        "Allocation does not imply a promise of liquidity"
+      ]
+    },
+    {
+      "heading": "Token Usage",
+      "paragraphs": [
+        "Tokens can be used within the ecosystem for participation-related interactions, such as access to platform features, participation in coordinated initiatives, and internal exchange between ecosystem participants.",
+        "After specific outcomes are realized, allocated tokens become fully usable and participants are free to hold, use, or exchange them according to platform rules."
+      ]
+    },
+    {
+      "heading": "What the Token Is Not",
+      "paragraphs": [
+        "The PonyLife token is explicitly not designed as a financial product."
+      ],
+      "bullets": [
+        "Not an investment contract",
+        "Not a security",
+        "Not a yield-generating instrument",
+        "Not a price-guaranteed asset"
+      ]
+    },
+    {
+      "heading": "Design Philosophy",
+      "paragraphs": [
+        "The token exists to make coordination explicit, measurable, and composable.",
+        "Rather than promising returns, it enables experimentation with new forms of collective visibility, shared exposure to uncertainty, and transparent participation across a fragmented creative landscape."
+      ]
+    }
+  ]
+}
