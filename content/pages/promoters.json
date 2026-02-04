@@ -3,7 +3,7 @@
   "subtitle": "Promoters are independent participants who contribute to visibility and potential realization of creative assets by selecting and promoting works within the PonyLife coordination framework.",
   "cta": [
     { "label": "Browse Catalog", "href": "/catalog", "variant": "primary" },
-    { "label": "Transparency", "href": "/transparency", "variant": "secondary" }
+    { "label": "Token PNL", "href": "/transparency", "variant": "secondary" }
   ],
   "sections": [
     {

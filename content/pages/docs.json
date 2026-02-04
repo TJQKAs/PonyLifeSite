@@ -2,7 +2,7 @@
   "title": "Docs",
   "subtitle": "Official documentation hub: product notes, investor materials, and legal disclosures. Clear language, no hype.",
   "cta": [
-    { "label": "Transparency", "href": "/transparency", "variant": "secondary" },
+    { "label": "Token PNL", "href": "/transparency", "variant": "secondary" },
     { "label": "Catalog", "href": "/catalog", "variant": "primary" }
   ],
   "groups": [

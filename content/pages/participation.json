@@ -2,7 +2,7 @@
   "title": "Participation (PNL)",
   "subtitle": "PNL is a participation and coordination token used inside the PonyLife ecosystem to account for delegated rights, conditional involvement, and platform-level experimentation — not an investment product.",
   "cta": [
-    { "label": "Transparency", "href": "/transparency", "variant": "primary" },
+    { "label": "Token PNL", "href": "/transparency", "variant": "primary" },
     { "label": "Docs / Glossary", "href": "/docs", "variant": "secondary" }
   ],
   "sections": [

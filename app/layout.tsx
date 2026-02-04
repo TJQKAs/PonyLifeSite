@@ -33,7 +33,7 @@ const nav = [
   { href: "/creators", label: "Creators" },
   { href: "/promoters", label: "Promoters" },
   { href: "/participation", label: "Participation" },
-  { href: "/transparency", label: "Transparency" },
+  { href: "/transparency", label: "Token PNL" },
   { href: "/docs", label: "Docs" },
 ];
 
@@ -130,7 +130,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
     <div style={{ display: "flex", gap: 14, flexWrap: "wrap", justifyContent: "center" }}>
       <Link href="/docs" style={{ color: "inherit" }}>Docs</Link>
-      <Link href="/transparency" style={{ color: "inherit" }}>Transparency</Link>
+      <Link href="/transparency" style={{ color: "inherit" }}>Token PNL</Link>
       <Link href="/contact" style={{ color: "inherit" }}>Contact</Link>
     </div>
   </div>
